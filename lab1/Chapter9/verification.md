@@ -3,7 +3,7 @@
 Run with:
 
 ```powershell
-python Ex9/implementation.py
+python Chapter9/implementation.py
 ```
 
 Output: `All unit tests passed.`

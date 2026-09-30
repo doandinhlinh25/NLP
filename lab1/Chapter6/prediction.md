@@ -1,4 +1,3 @@
-# Dự đoán về TF-IDF và tìm kiếm
 
 ## Prediction 1 — Vocabulary
 

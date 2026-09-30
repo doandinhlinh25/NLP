@@ -33,9 +33,9 @@ python -m pip install numpy scipy scikit-learn jupyter
 Từ thư mục gốc của repository:
 
 ```powershell
-python lab1/Ex9/implementation.py
-python lab1/Ex8/run_experiments.py
-python lab1/Ex10/run_search_evaluation.py
+python lab1/Chapter9/implementation.py
+python lab1/Chapter8/run_experiments.py
+python lab1/Chapter10/run_search_evaluation.py
 ```
 
 Để làm việc với notebook:

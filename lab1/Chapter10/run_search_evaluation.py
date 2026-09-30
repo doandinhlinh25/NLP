@@ -13,7 +13,7 @@ LAB_ROOT = Path(__file__).resolve().parents[1]
 if str(LAB_ROOT) not in sys.path:
     sys.path.insert(0, str(LAB_ROOT))
 
-from Ex8.run_experiments import (  # noqa: E402
+from Chapter8.run_experiments import (  # noqa: E402
     DATASET_PATH,
     DOCUMENT_PREVIEW_LENGTH,
     PipelineResult,

@@ -22,7 +22,7 @@ DOCUMENT_PREVIEW_LENGTH = 180
 TOP_TERM_COUNT = 20
 TOP_DOCUMENT_COUNT = 5
 VECTOR_DTYPE = np.float32
-WORD_TOKEN_PATTERN = r"(?u)\b\w+\b"
+WORD_TOKEN_PATTERN = r"(?u)\b[^\W_]+(?:['-][^\W_]+)*\b"
 NORMALIZED_TOKEN_PATTERN = r"(?u)\b[a-zA-Z][a-zA-Z']+\b"
 CHARACTER_NGRAM_RANGE = (3, 5)
 CHARACTER_MINIMUM_DOCUMENT_FREQUENCY = 3
@@ -277,7 +277,7 @@ def write_report(
     common_list = "\n".join(f"- `{term}`: df = {frequency:,}" for term, frequency in common_terms)
     rare_list = "\n".join(f"- `{term}`: idf = {idf:.4f}" for term, idf in rare_terms)
     feature_list = "\n".join(f"- `{term}`: tf-idf = {weight:.4f}" for term, weight in top_features)
-    report = f"""# Experiment 1 and preprocessing ablation
+    report = f"""# Experiment 2 — Preprocessing ablation
 
 ## Corpus and sparse representation
 
