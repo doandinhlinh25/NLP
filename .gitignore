@@ -10,6 +10,9 @@ env/
 # Jupyter checkpoints
 .ipynb_checkpoints/
 
+# Reproducible trained embedding artifacts
+lab3/Chapter17/*.model
+
 # Editor settings
 .vscode/
 .idea/

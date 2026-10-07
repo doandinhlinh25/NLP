@@ -1,0 +1,6 @@
+word_1,word_2,expected_similarity,is_semantically_related,cosine_similarity,model_rank
+king,queen,high,True,0.938507616519928,1
+car,automobile,high,True,0.8493777513504028,2
+cat,dog,medium,True,0.8445197343826294,3
+doctor,physician,high,True,0.837316632270813,4
+computer,banana,low,False,0.7983019948005676,5

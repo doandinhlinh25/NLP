@@ -1,0 +1,4 @@
+dimension,training_seconds,vocabulary_size,vector_memory_mb,doctor_physician_similarity,analogy_top1,semantic_retrieval_top1,semantic_retrieval_correct
+50,11.485828100005165,21581,4.116249084472656,0.8361465930938721,hall,medical,True
+100,13.995804800011683,21581,8.232498168945312,0.837316632270813,hall,technology,False
+300,21.2588799999794,21581,24.697494506835938,0.843532145023346,chapters,technology,False

@@ -1,0 +1,6 @@
+rank,word,cosine_similarity,corpus_frequency,shared_local_contexts
+1,baseboards,0.9665358066558838,27,"the (15), to (13), your (11)"
+2,unexpected,0.9631125330924988,14,"the (7), to (5), of (4)"
+3,correct,0.959861695766449,63,"the (22), to (21), you (10)"
+4,swimming,0.9570378661155701,29,"the (13), your (8), and (8)"
+5,correctly,0.9550296068191528,25,"to (11), the (10), you (8)"

@@ -8,6 +8,7 @@ Repository lưu trữ bài thực hành và tài liệu môn **Xử lý ngôn ng
 | --- | --- |
 | `lab1/` | Lab 01: tiền xử lý văn bản, biểu diễn thưa, TF-IDF, tìm kiếm và đánh giá. |
 | `lab2/` | Tài liệu Lab 02 (`W2.pdf`). |
+| `lab3/` | Lab 03: word-context representation và word embeddings. |
 | `data/` | Corpus C4 mẫu 30K dùng cho các thực nghiệm. |
 | `quiz/` | Tài liệu câu hỏi ôn tập. |
 
@@ -17,7 +18,7 @@ Chi tiết các bài từ Exercise 1 đến Exercise 11 của Lab 01 có trong [
 
 - Python 3.10 trở lên
 - Jupyter Notebook (để mở các tệp `.ipynb`)
-- Các thư viện Python: `numpy`, `scipy`, `scikit-learn`
+- Các thư viện Python: `numpy`, `scipy`, `scikit-learn`, `gensim`
 
 ## Cài đặt môi trường
 
@@ -25,10 +26,10 @@ Chi tiết các bài từ Exercise 1 đến Exercise 11 của Lab 01 có trong [
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 python -m pip install --upgrade pip
-python -m pip install numpy scipy scikit-learn jupyter
+python -m pip install numpy scipy scikit-learn gensim jupyter
 ```
 
-## Chạy Lab 01
+## Chạy lại phần code
 
 Từ thư mục gốc của repository:
 
@@ -36,6 +37,13 @@ Từ thư mục gốc của repository:
 python lab1/Chapter9/implementation.py
 python lab1/Chapter8/run_experiments.py
 python lab1/Chapter10/run_search_evaluation.py
+python lab3/Chapter10/run_word_context_experiment.py
+python lab3/Chapter11/implementation.py
+python lab3/Chapter17/run_word2vec_experiment.py
+python lab3/Chapter18/run_embedding_inspection.py
+python lab3/Chapter19/run_context_window_experiment.py
+python lab3/Chapter20/run_dimension_experiment.py
+python lab3/Chapter21/run_similarity_evaluation.py
 ```
 
 Để làm việc với notebook:
@@ -44,11 +52,11 @@ python lab1/Chapter10/run_search_evaluation.py
 jupyter notebook
 ```
 
-Sau đó mở notebook tương ứng trong thư mục `lab1/`.
+Sau đó mở notebook tương ứng trong thư mục `lab1/` hoặc `lab3/`.
 
 ## Dữ liệu
 
-Các chương trình Lab 01 sử dụng corpus tại:
+Các chương trình Lab 01 và Lab 03 sử dụng corpus tại:
 
 ```text
 data/c4-train.00000-of-01024-30K.json/c4-train.00000-of-01024-30K.json
