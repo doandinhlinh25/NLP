@@ -1,0 +1,6 @@
+model,representation,classifier,split,accuracy,precision_macro,recall_macro,f1_macro,training_time_seconds,vocabulary_size,ngram_range,notes
+TF-IDF + Logistic Regression,TF-IDF unigram,Logistic Regression,validation,0.8918019562367652,0.8920597867194155,0.8917549269148204,0.8917744846838587,7.193804200000159,82600.0,"(1, 1)",
+Average Word2Vec + Logistic Regression,Average Word2Vec,Logistic Regression,validation,0.8291822123626097,0.8291863175650254,0.8291730624841884,0.8291769581069135,148.3742556999996,111841.0,N/A,
+TF-IDF unigram + bigram + Logistic Regression,TF-IDF unigram + bigram,Logistic Regression,validation,0.8911969345568216,0.8915234831964867,0.8911438772198266,0.8911634293178916,38.709727000000385,1725370.0,"(1, 2)",
+TF-IDF + Linear SVM,TF-IDF unigram,Linear SVM,validation,0.8981546838761723,0.8983240029996404,0.8981171486001599,0.8981363623420103,5.91004299999986,82600.0,"(1, 1)",
+TF-IDF + Linear SVM,TF-IDF unigram,Linear SVM,test,0.8975496621962287,0.8976381287623214,0.8975226527858107,0.8975381758988765,,,,Chọn theo validation macro F1.

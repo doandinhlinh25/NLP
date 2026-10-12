@@ -1,0 +1,15 @@
+# Python and notebook runtime files
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Local virtual environments
+.venv/
+venv/
+
+# Generated experiment artifacts
+confusion_matrix.png
+
+# Optional local datasets
+data/*.csv
+!data/.gitkeep

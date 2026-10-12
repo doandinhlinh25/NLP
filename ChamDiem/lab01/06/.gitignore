@@ -1,0 +1,10 @@
+# Chỉ đưa lên GitHub những thư mục được liệt kê bên dưới.
+
+/*
+!/.gitignore
+!/README.md 
+!/lab1/
+!/lab2/
+!/lab3/
+!/dataset/
+__pycache__/
