@@ -1,4 +1,4 @@
-# Dự đoán trước experiment
+# 10, Prediction trước experiment
 
 **Dataset:**  
 **Task:**  
@@ -27,8 +27,13 @@
 - Reason: Stopwords đôi khi là nhiễu, nhưng cũng có thể mang thông tin ngữ nghĩa hoặc quan hệ ngữ pháp quan trọng.
 - Confidence: Cao
 
+
 ## 5. Accuracy và F1 có thể cho kết luận khác nhau?
 
 - Prediction: Có thể cho kết luận khác nhau.
 - Reason: Accuracy tính tổng số dự đoán đúng, còn F1 cân bằng precision và recall, nên phản ánh tốt hơn hiệu quả ở từng lớp.
 - Confidence: Rất cao.
+
+# 12, Data leakage
+
+Data leakage xảy ra vì `fit` TF-IDF trên toàn bộ dữ liệu đã dùng vocabulary và IDF của test set do đó vocabulary chứa thông tin/ các từ trong tập test. Mô hình vì vậy gián tiếp biết thông tin của test trước khi đánh giá, khiến kết quả cao hơn thực tế. Chỉ được `fit` trên train rồi `transform` validation/test.
