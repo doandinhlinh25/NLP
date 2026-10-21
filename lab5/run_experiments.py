@@ -309,7 +309,7 @@ def write_figures(results: list[dict], histories: dict[str, list[dict]], labels:
 
 
 def write_analysis(splits: dict[str, pd.DataFrame], predictions: np.ndarray, probabilities: np.ndarray, config: Config) -> None:
-    """Save at least three correct and three incorrect test cases for review."""
+    """Lưu ít nhất ba mẫu đúng và ba mẫu sai để phân tích."""
     test = splits["test"]
     labels = (test["sentiment"] == LABEL_NAMES[1]).astype(int).to_numpy()
     rows = []
@@ -327,9 +327,19 @@ def write_analysis(splits: dict[str, pd.DataFrame], predictions: np.ndarray, pro
             if not reasons:
                 reasons.append("lexical/context ambiguity possible")
             rows.append((outcome, LABEL_NAMES[labels[index]], LABEL_NAMES[predictions[index]], float(probabilities[index]), len(tokens), ", ".join(reasons), text[:config.error_snippet_length].replace("|", "\\|")))
-    lines = ["# Error analysis", "", "The observations below use held-out test reviews. The possible causes are hypotheses, not causal proof.", "", "| Outcome | True | Predicted | P(positive) | Tokens | Possible factors | Review excerpt |", "|---|---|---|---:|---:|---|---|"]
-    lines.extend(f"| {outcome} | {truth} | {prediction} | {probability:.3f} | {length} | {reason} | {excerpt} |" for outcome, truth, prediction, probability, length, reason, excerpt in rows)
-    lines.extend(["", "A mistake is not automatically caused by sequence modeling. Vocabulary coverage, label ambiguity, review length, truncation, and limited training data can also matter."])
+    translations = {
+        "correct": "Đúng",
+        "incorrect": "Sai",
+        "positive": "Tích cực",
+        "negative": "Tiêu cực",
+        "negation": "phủ định",
+        "contrast": "tương phản",
+        "truncation possible": "có thể bị cắt ngắn",
+        "lexical/context ambiguity possible": "từ vựng hoặc ngữ cảnh có thể mơ hồ",
+    }
+    lines = ["# Phân tích lỗi", "", "Các quan sát dưới đây dùng bài đánh giá thuộc tập kiểm thử tách riêng. Những nguyên nhân có thể xảy ra chỉ là giả thuyết, chưa phải bằng chứng nhân quả. Trích đoạn đánh giá được giữ nguyên tiếng Anh để đối chiếu với dữ liệu gốc.", "", "| Kết quả | Nhãn thực tế | Nhãn dự đoán | P(tích cực) | Số token | Yếu tố có thể ảnh hưởng | Trích đoạn đánh giá gốc |", "|---|---|---|---:|---:|---|---|"]
+    lines.extend(f"| {translations[outcome]} | {translations[truth]} | {translations[prediction]} | {probability:.3f} | {length} | {', '.join(translations[item] for item in reason.split(', '))} | {excerpt} |" for outcome, truth, prediction, probability, length, reason, excerpt in rows)
+    lines.extend(["", "Không thể tự động quy lỗi dự đoán cho cách mô hình hóa chuỗi. Độ phủ từ vựng, nhãn khó phân định, độ dài bài đánh giá, việc cắt ngắn chuỗi và lượng dữ liệu huấn luyện hạn chế đều có thể ảnh hưởng."])
     (config.output_path / "error_analysis.md").write_text("\n".join(lines), encoding="utf-8")
 
 

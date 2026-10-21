@@ -16,7 +16,7 @@ Open `lab5/sequence_classification.ipynb` to inspect the generated data, plots, 
 
 | File | Contents |
 |---|---|
-| `calculations.md` | RNN/LSTM arithmetic and theory |
+| `calculations.pdf` | RNN/LSTM arithmetic and theory |
 | `prediction.md` | Predictions recorded before training |
 | `rnn_cell.py` | Explicit RNN step and framework equivalence check |
 | `sequence_classification.ipynb` | Executable experiment entry point and result inspection |

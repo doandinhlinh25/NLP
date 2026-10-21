@@ -1,9 +1,9 @@
-# Predictions recorded before training
+# Dự đoán trước khi huấn luyện
 
-| Question | Prediction | Reason | Confidence |
+| Câu hỏi | Dự đoán | Lý do | Mức độ tin cậy |
 |---|---|---|---|
-| TF-IDF + LR versus RNN + Embedding: direct order handling | RNN | Its state is updated in token order; unigram TF-IDF counts terms without positions. | High |
-| RNN versus LSTM for distant dependencies | LSTM | A gated cell state can preserve information across many steps, reducing dependence on repeated tanh transitions. | High |
-| RNN length 50 to 200 | Slower training; improvement is uncertain | More recurrent steps cost time and lengthen gradient paths while preserving more context. | High for time, medium for quality |
-| Truncate every review at 30 tokens | Accuracy may drop | The verdict, reversal, or negation can appear after the first 30 tokens. | High |
-| Must LSTM always exceed RNN accuracy? | No | Dataset, training budget, variance, and task length influence performance. | High |
+| TF-IDF + LR so với RNN + Embedding: xử lý trực tiếp thứ tự từ | RNN | Trạng thái RNN được cập nhật theo thứ tự token; TF-IDF unigram đếm từ mà không lưu vị trí. | Cao |
+| RNN so với LSTM khi cần nắm bắt quan hệ xa | LSTM | Trạng thái ô nhớ có cổng có thể duy trì thông tin qua nhiều bước, giảm sự phụ thuộc vào các phép biến đổi tanh lặp lại. | Cao |
+| Tăng độ dài đầu vào của RNN từ 50 lên 200 | Huấn luyện chậm hơn; mức cải thiện chưa chắc chắn | Nhiều bước hồi quy hơn làm tăng thời gian tính toán và kéo dài đường truyền gradient, đồng thời giữ lại nhiều ngữ cảnh hơn. | Cao về thời gian, trung bình về chất lượng |
+| Cắt mọi bài đánh giá còn 30 token | Độ chính xác có thể giảm | Kết luận, ý đảo chiều hoặc từ phủ định có thể xuất hiện sau 30 token đầu. | Cao |
+| LSTM có luôn chính xác hơn RNN không? | Không | Dữ liệu, thời lượng huấn luyện, dao động giữa các lần chạy và độ dài tác vụ đều ảnh hưởng đến kết quả. | Cao |
