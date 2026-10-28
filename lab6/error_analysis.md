@@ -1,0 +1,14 @@
+# Phân tích lỗi
+
+Sáu bài đánh giá IMDb thuộc tập test; xác suất tính cho nhãn tích cực. Attention là phân phối để quan sát, không phải giải thích nhân quả.
+
+| Kết quả | Nhãn thật | Dự đoán | P(tích cực) | Số token | Token nhận attention cao nhất | Yếu tố có thể ảnh hưởng | Trích đoạn bài đánh giá |
+|---|---|---|---:|---:|---|---|---|
+| Đúng | Tích cực | Tích cực | 0.840 | 175 | stylish, lemmon, then | tương phản, cắt ngắn | this is a wonderful film, makes the 1950'S look beautifully stylish. Kim Novak is intriguing and compelling as a modern-day witch with one foot in Manhattan and another in infinity. All the supporting performances are terrific, from Jack Lemmon as her bother Nicky to Ernie Kovacs |
+| Đúng | Tích cực | Tích cực | 0.826 | 719 | small, melodrama, brutally | cắt ngắn | Lee Chang-dong's exceptional "Secret Sunshine" is the single most emotionally ravaging experience of the year. It is an instantly sobering, brutally honest character piece on the reverberations of loss and a graceful memento mori that resonates with a striking density of thought, |
+| Đúng | Tích cực | Tích cực | 0.742 | 303 | go, however, however | tương phản, cắt ngắn | I won't go to a generalization, and say it's the best love story of all time, as some have said. That's fine, people feel very deeply about this film, you either love it I believe...or you simply hate it. I don't want to say, the best of all,because that is simply too 'broad' for |
+| Sai | Tích cực | Tiêu cực | 0.378 | 95 | movie, movie, the | phủ định, tương phản | I've seen this movie after watching Paltrow's version. I've found that one a very good one, and I thought this would not be as good... but I was wrong: British version was far better and enjoyable! I found Jeremy Northam more "agreeable" than Mark Strong, but I can say that Stron |
+| Sai | Tiêu cực | Tích cực | 0.590 | 146 | stylish, heat, depth | phủ định, cắt ngắn | this film has it all; the deft camera work, reminiscent of martin scorcese, or oliver stone, the tight acting of 'heat', the explosive action of a jerry bruckheimer movie, the witty dialogue of a tarantino script and the epic feel of say, 'the godfather' the judge reinhold charac |
+| Sai | Tích cực | Tiêu cực | 0.342 | 244 | bad, even, accident | tương phản, cắt ngắn | I stumbled upon this movie by accident. I mean, how else could I find out? It wasn't hyped at all by the studios, nor did I even hear about it's release from my normally plugged in friends. After throwing my money away on so many bad movies this year, I wish I could've seen this  |
+
+Các token được nêu là những cột có attention trung bình cao nhất sau khi lấy trung bình qua mọi vị trí query hợp lệ. Phép lấy trung bình có thể che khuất hành vi của từng query. Phủ định, tương phản, cắt ngắn và từ vựng chỉ là giả thuyết cần đối chiếu với văn bản và dự đoán; bảng này chưa xác định nguyên nhân gây lỗi.
