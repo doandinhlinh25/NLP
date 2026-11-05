@@ -23,3 +23,7 @@ tmp/
 # Local environment variables
 .env
 .env.*
+
+# Generated LAB 08 model checkpoints
+lab8/checkpoints/
+
