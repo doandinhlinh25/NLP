@@ -31,10 +31,13 @@ ChamDiem/
 ├── lab02/<thư-mục-con>/cham_diem_lab02.md
 ├── lab03/<thư-mục-con>/cham_diem_lab03.md
 ├── lab04/<thư-mục-con>/cham_diem_lab04.md
-└── lab05/<thư-mục-con>/cham_diem_lab05.md
+├── lab05/<thư-mục-con>/cham_diem_lab05.md
+└── lab09/
+    ├── tieu_chi_cham_diem_lab09.md
+    └── mau_phieu_cham_lab09.md
 ```
 
-Mỗi `cham_diem_labXX.md` ghi điểm, rubric/hạng mục, căn cứ đối chiếu và nhận xét. Một số thư mục còn có README hoặc requirements riêng cho bài đó. Hiện package có hồ sơ cho LAB 01–05; chưa có hồ sơ chấm LAB 06–09.
+Mỗi `cham_diem_labXX.md` ghi điểm, rubric/hạng mục, căn cứ đối chiếu và nhận xét. Một số thư mục còn có README hoặc requirements riêng cho bài đó. LAB 09 có [tiêu chí chấm mẫu](ChamDiem/lab09/tieu_chi_cham_diem_lab09.md) và [phiếu chấm trống](ChamDiem/lab09/mau_phieu_cham_lab09.md), dựa trên rubric của đề `lab9/W9.pdf`; đây là mẫu để điền khi chấm, chưa phải kết quả chấm cho một sinh viên. Chưa có hồ sơ chấm cho LAB 06–08.
 
 Khi chấm một bài, mở file trong `ChamDiem/labXX/` tương ứng để xem nhận xét, rồi đối chiếu các deliverables trong `labX/` với đề và README của lab. Các file kết quả như CSV, hình, notebook và báo cáo nằm cùng thư mục bài nộp, không nằm trong `ChamDiem/`.
 
@@ -59,4 +62,6 @@ Một số thực nghiệm cần tải dữ liệu hoặc pretrained model qua I
 
 - [Bài thực hành LAB 01](lab1/README.md)
 - [Bài thực hành LAB 09](lab9/README.md)
+
+
 
