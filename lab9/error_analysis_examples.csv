@@ -1,0 +1,510 @@
+text,gold,prediction,error_type
+S. Doull c subs ( M. Wasim ) b Waqar 1,S. Doull/PER | M. Wasim/PER | Waqar/PER,M./PER,boundary or spurious entity
+S. Doull c subs ( M. Wasim ) b Waqar 1,S. Doull/PER | M. Wasim/PER | Waqar/PER,Wasim/PER,boundary or spurious entity
+S. Doull c subs ( M. Wasim ) b Waqar 1,M. Wasim/PER,S. Doull/PER | M./PER | Wasim/PER | Waqar/PER,boundary error
+"Crude petroleum 2,557 2,832 15,838 17,648",,Crude/PER,boundary or spurious entity
+SOCCER - LEADING SCOTTISH PREMIER DIVISION SCORERS .,SCOTTISH PREMIER DIVISION/MISC,,false negative
+"Mongolia 's state copyright official , Gundegma Jargalshaihan , said apologetically that he had just arrived from Ulan Bator and was not aware of the details of the digital agenda .",Mongolia/LOC | Gundegma Jargalshaihan/PER | Ulan Bator/LOC,Ulan/LOC,boundary or spurious entity
+"Mongolia 's state copyright official , Gundegma Jargalshaihan , said apologetically that he had just arrived from Ulan Bator and was not aware of the details of the digital agenda .",Ulan Bator/LOC,Mongolia/LOC | Gundegma Jargalshaihan/PER | Ulan/LOC,boundary error
+""" Internet is a potential cash cow for copyright-based industries and we need roadmaps on the information superhighway , "" said Marc Pearl , vice-president of the Information Technology Association of America , a trade association of U.S. network companies opposing the treaties .",Internet/MISC,Marc Pearl/PER | Information Technology Association of America/ORG | U.S./LOC,false negative
+Thai rice vessels loading and movements at Dec 06 .,Thai/MISC,Thai/LOC,wrong entity type
+Thai rice vessels loading and movements at Dec 06 .,Thai/MISC,Thai/LOC,boundary error
+Yakomas are hounded in stronghold districts of Patasse 's Baya people while other tribes have fled areas in rebel hands .,Yakomas/MISC | Patasse/PER | Baya/MISC,Patasse/LOC,wrong entity type
+Yakomas are hounded in stronghold districts of Patasse 's Baya people while other tribes have fled areas in rebel hands .,Yakomas/MISC | Patasse/PER | Baya/MISC,Baya/LOC,wrong entity type
+Yakomas are hounded in stronghold districts of Patasse 's Baya people while other tribes have fled areas in rebel hands .,Yakomas/MISC,Patasse/LOC | Baya/LOC,false negative
+Yakomas are hounded in stronghold districts of Patasse 's Baya people while other tribes have fled areas in rebel hands .,Patasse/PER,Patasse/LOC | Baya/LOC,boundary error
+Yakomas are hounded in stronghold districts of Patasse 's Baya people while other tribes have fled areas in rebel hands .,Baya/MISC,Patasse/LOC | Baya/LOC,boundary error
+SOCCER - ASIAN CUP RESULTS .,ASIAN CUP/MISC,ASIAN/ORG,boundary or spurious entity
+SOCCER - ASIAN CUP RESULTS .,ASIAN CUP/MISC,ASIAN/ORG,boundary error
+Real Madrid 's Balkan strike force of Davor Suker and Predrag Mijatovic shot their side to a 2-0 win over Barcelona in Spain 's old firm game on Saturday .,Real Madrid/ORG | Balkan/LOC | Davor Suker/PER | Predrag Mijatovic/PER | Barcelona/ORG | Spain/LOC,Real/ORG,boundary or spurious entity
+Real Madrid 's Balkan strike force of Davor Suker and Predrag Mijatovic shot their side to a 2-0 win over Barcelona in Spain 's old firm game on Saturday .,Real Madrid/ORG | Balkan/LOC | Davor Suker/PER | Predrag Mijatovic/PER | Barcelona/ORG | Spain/LOC,Balkan/MISC,wrong entity type
+Real Madrid 's Balkan strike force of Davor Suker and Predrag Mijatovic shot their side to a 2-0 win over Barcelona in Spain 's old firm game on Saturday .,Real Madrid/ORG | Balkan/LOC | Davor Suker/PER | Predrag Mijatovic/PER | Barcelona/ORG | Spain/LOC,Barcelona/LOC,wrong entity type
+Real Madrid 's Balkan strike force of Davor Suker and Predrag Mijatovic shot their side to a 2-0 win over Barcelona in Spain 's old firm game on Saturday .,Real Madrid/ORG,Real/ORG | Balkan/MISC | Davor Suker/PER | Predrag Mijatovic/PER | Barcelona/LOC | Spain/LOC,boundary error
+Real Madrid 's Balkan strike force of Davor Suker and Predrag Mijatovic shot their side to a 2-0 win over Barcelona in Spain 's old firm game on Saturday .,Balkan/LOC,Real/ORG | Balkan/MISC | Davor Suker/PER | Predrag Mijatovic/PER | Barcelona/LOC | Spain/LOC,boundary error
+Real Madrid 's Balkan strike force of Davor Suker and Predrag Mijatovic shot their side to a 2-0 win over Barcelona in Spain 's old firm game on Saturday .,Barcelona/ORG,Real/ORG | Balkan/MISC | Davor Suker/PER | Predrag Mijatovic/PER | Barcelona/LOC | Spain/LOC,boundary error
+"Interfax news agency quoted First Deputy Foreign Minister Igor Ivanov as saying Moscow was ready for "" most active and constructive "" work with Albright .",Interfax/ORG | Igor Ivanov/PER | Moscow/LOC | Albright/PER,First/MISC,boundary or spurious entity
+"Interfax news agency quoted First Deputy Foreign Minister Igor Ivanov as saying Moscow was ready for "" most active and constructive "" work with Albright .",Interfax/ORG | Igor Ivanov/PER | Moscow/LOC | Albright/PER,Foreign/ORG,boundary or spurious entity
+"Interfax news agency quoted First Deputy Foreign Minister Igor Ivanov as saying Moscow was ready for "" most active and constructive "" work with Albright .",Interfax/ORG | Igor Ivanov/PER | Moscow/LOC | Albright/PER,Albright/ORG,wrong entity type
+"Interfax news agency quoted First Deputy Foreign Minister Igor Ivanov as saying Moscow was ready for "" most active and constructive "" work with Albright .",Albright/PER,Interfax/ORG | First/MISC | Foreign/ORG | Igor Ivanov/PER | Moscow/LOC | Albright/ORG,boundary error
+Indonesia : 20 - Hendro Kartiko ; 2 - Agung Setyabudi ; 3 - Suwandi Siswoyo ; 4 - Yeyen Tumera ; 5 - Aples Tecuari ; 6 - Sudiriman ; 7 - Widodo Gahyo Purta ; 8 - Ronny Wabia ; 11 - Bima Sakti ; 12 - Chris Yarangga ( 15 - Francis Wewengken 36 ) ; 16 - Marzuki Badriawan .,Indonesia/LOC,Hendro Kartiko/PER | Agung Setyabudi/PER | Suwandi Siswoyo/PER | Yeyen Tumera/PER | Aples Tecuari/PER | Sudiriman/PER | Widodo Gahyo Purta/PER | Ronny Wabia/PER | Bima Sakti/PER | Chris Yarangga/PER | Francis Wewengken/PER | Marzuki Badriawan/PER,false negative
+"6 - Marcus Gayle ( Wimbledon ) , Gary Speed ( Everton ) , Chris",Marcus Gayle/PER | Wimbledon/LOC | Gary Speed/PER | Everton/ORG | Chris/PER,Everton/LOC,wrong entity type
+"6 - Marcus Gayle ( Wimbledon ) , Gary Speed ( Everton ) , Chris",Everton/ORG,Marcus Gayle/PER | Wimbledon/LOC | Gary Speed/PER | Everton/LOC | Chris/PER,boundary error
+"Wenchang has built a berth for 5,000 deadweight-tonne container ships at the port and invested 34 million yuan ( $ 4.1 million ) to dredge the harbour , Xinhua said .",Wenchang/LOC | Xinhua/ORG,Xinhua/LOC,wrong entity type
+"Wenchang has built a berth for 5,000 deadweight-tonne container ships at the port and invested 34 million yuan ( $ 4.1 million ) to dredge the harbour , Xinhua said .",Xinhua/ORG,Wenchang/LOC | Xinhua/LOC,boundary error
+"The official from the U.N. refugee agency UNHCR said a chartered plane had picked up the staff from Bangui and was heading for Abidjan , Ivory Coast .",U.N./ORG | UNHCR/ORG | Bangui/LOC | Abidjan/LOC | Ivory Coast/LOC,U.N./LOC,wrong entity type
+"The official from the U.N. refugee agency UNHCR said a chartered plane had picked up the staff from Bangui and was heading for Abidjan , Ivory Coast .",U.N./ORG | UNHCR/ORG | Bangui/LOC | Abidjan/LOC | Ivory Coast/LOC,UNHCR/LOC,wrong entity type
+"The official from the U.N. refugee agency UNHCR said a chartered plane had picked up the staff from Bangui and was heading for Abidjan , Ivory Coast .",U.N./ORG,U.N./LOC | UNHCR/LOC | Bangui/LOC | Abidjan/LOC | Ivory Coast/LOC,boundary error
+"The official from the U.N. refugee agency UNHCR said a chartered plane had picked up the staff from Bangui and was heading for Abidjan , Ivory Coast .",UNHCR/ORG,U.N./LOC | UNHCR/LOC | Bangui/LOC | Abidjan/LOC | Ivory Coast/LOC,boundary error
+Results of the World Cup,World Cup/MISC,World/MISC,boundary or spurious entity
+Results of the World Cup,World Cup/MISC,World/MISC,boundary error
+Deportivo Coruna 15 9 6 0 23 7 33,Deportivo Coruna/ORG,Deportivo/ORG,boundary or spurious entity
+Deportivo Coruna 15 9 6 0 23 7 33,Deportivo Coruna/ORG,Deportivo/ORG,boundary error
+"Kuwait - Jassem Al-Huwaidi 9 , 44",Kuwait/LOC | Jassem Al-Huwaidi/PER,Kuwait/PER,wrong entity type
+"Kuwait - Jassem Al-Huwaidi 9 , 44",Kuwait/LOC,Kuwait/PER | Jassem Al-Huwaidi/PER,boundary error
+ALPINE SKIING-GOETCHL WINS WORLD CUP DOWNHILL .,WORLD CUP/MISC,,false negative
+"More than 290 people have reported symptoms in Lanarkshire county , the worst-hit area , since the outbreak first came to light after people ate tainted meat pies at a pensioners ' lunch .",Lanarkshire/LOC,Lanarkshire/ORG,wrong entity type
+"More than 290 people have reported symptoms in Lanarkshire county , the worst-hit area , since the outbreak first came to light after people ate tainted meat pies at a pensioners ' lunch .",Lanarkshire/LOC,Lanarkshire/ORG,boundary error
+"The Canadian general in charge of a multinational force for eastern Zaire said on Friday he was going back to Zaire for more information about the plight of about 165,000 Rwandan refugees adrift in the countryside .",Canadian/MISC | Zaire/LOC | Zaire/LOC | Rwandan/MISC,Rwandan/LOC,wrong entity type
+"The Canadian general in charge of a multinational force for eastern Zaire said on Friday he was going back to Zaire for more information about the plight of about 165,000 Rwandan refugees adrift in the countryside .",Rwandan/MISC,Canadian/MISC | Zaire/LOC | Zaire/LOC | Rwandan/LOC,boundary error
+"Liberian striker George Weah makes a welcome return for Milan alongside Roberto Baggio , with Montenegrin Dejan Savicevic in midfield .",Liberian/MISC | George Weah/PER | Milan/ORG | Roberto Baggio/PER | Montenegrin/MISC | Dejan Savicevic/PER,Liberian/LOC,wrong entity type
+"Liberian striker George Weah makes a welcome return for Milan alongside Roberto Baggio , with Montenegrin Dejan Savicevic in midfield .",Liberian/MISC | George Weah/PER | Milan/ORG | Roberto Baggio/PER | Montenegrin/MISC | Dejan Savicevic/PER,Milan/LOC,wrong entity type
+"Liberian striker George Weah makes a welcome return for Milan alongside Roberto Baggio , with Montenegrin Dejan Savicevic in midfield .",Liberian/MISC | George Weah/PER | Milan/ORG | Roberto Baggio/PER | Montenegrin/MISC | Dejan Savicevic/PER,Montenegrin/PER,wrong entity type
+"Liberian striker George Weah makes a welcome return for Milan alongside Roberto Baggio , with Montenegrin Dejan Savicevic in midfield .",Liberian/MISC,Liberian/LOC | George Weah/PER | Milan/LOC | Roberto Baggio/PER | Montenegrin/PER | Dejan Savicevic/PER,boundary error
+"Liberian striker George Weah makes a welcome return for Milan alongside Roberto Baggio , with Montenegrin Dejan Savicevic in midfield .",Milan/ORG,Liberian/LOC | George Weah/PER | Milan/LOC | Roberto Baggio/PER | Montenegrin/PER | Dejan Savicevic/PER,boundary error
+"Liberian striker George Weah makes a welcome return for Milan alongside Roberto Baggio , with Montenegrin Dejan Savicevic in midfield .",Montenegrin/MISC,Liberian/LOC | George Weah/PER | Milan/LOC | Roberto Baggio/PER | Montenegrin/PER | Dejan Savicevic/PER,boundary error
+"Czech President Vaclav Havel on Friday welcomed the appointment of Madeleine Albright , who is of Czech extraction , as the United States ' first woman Secretary of State .",Czech/LOC | Vaclav Havel/PER | Madeleine Albright/PER | Czech/LOC | United States/LOC,Czech/MISC,wrong entity type
+"Czech President Vaclav Havel on Friday welcomed the appointment of Madeleine Albright , who is of Czech extraction , as the United States ' first woman Secretary of State .",Czech/LOC | Vaclav Havel/PER | Madeleine Albright/PER | Czech/LOC | United States/LOC,Czech/MISC,wrong entity type
+"Czech President Vaclav Havel on Friday welcomed the appointment of Madeleine Albright , who is of Czech extraction , as the United States ' first woman Secretary of State .",Czech/LOC | Vaclav Havel/PER | Madeleine Albright/PER | Czech/LOC | United States/LOC,United/LOC,boundary or spurious entity
+"Czech President Vaclav Havel on Friday welcomed the appointment of Madeleine Albright , who is of Czech extraction , as the United States ' first woman Secretary of State .",Czech/LOC | Vaclav Havel/PER | Madeleine Albright/PER | Czech/LOC | United States/LOC,State/ORG,boundary or spurious entity
+"Czech President Vaclav Havel on Friday welcomed the appointment of Madeleine Albright , who is of Czech extraction , as the United States ' first woman Secretary of State .",Czech/LOC,Czech/MISC | Vaclav Havel/PER | Madeleine Albright/PER | Czech/MISC | United/LOC | State/ORG,boundary error
+"Czech President Vaclav Havel on Friday welcomed the appointment of Madeleine Albright , who is of Czech extraction , as the United States ' first woman Secretary of State .",Czech/LOC,Czech/MISC | Vaclav Havel/PER | Madeleine Albright/PER | Czech/MISC | United/LOC | State/ORG,boundary error
+"Czech President Vaclav Havel on Friday welcomed the appointment of Madeleine Albright , who is of Czech extraction , as the United States ' first woman Secretary of State .",United States/LOC,Czech/MISC | Vaclav Havel/PER | Madeleine Albright/PER | Czech/MISC | United/LOC | State/ORG,boundary error
+"The committee said the Italian club had violated regulations by failing to inform Feyenoord , with whom the player was under contract .",Italian/MISC | Feyenoord/ORG,Feyenoord/PER,wrong entity type
+"The committee said the Italian club had violated regulations by failing to inform Feyenoord , with whom the player was under contract .",Feyenoord/ORG,Italian/MISC | Feyenoord/PER,boundary error
+"A "" Euro-sceptic "" member of the ruling Conservative party said on Thursday British finance minister Kenneth Clarke had to resign to prevent the party disintegrating over the issue of a single European currency .",Euro-sceptic/MISC | Conservative/MISC | British/MISC | Kenneth Clarke/PER | European/MISC,Conservative/ORG,wrong entity type
+"A "" Euro-sceptic "" member of the ruling Conservative party said on Thursday British finance minister Kenneth Clarke had to resign to prevent the party disintegrating over the issue of a single European currency .",Euro-sceptic/MISC,Conservative/ORG | British/MISC | Kenneth Clarke/PER | European/MISC,false negative
+"A "" Euro-sceptic "" member of the ruling Conservative party said on Thursday British finance minister Kenneth Clarke had to resign to prevent the party disintegrating over the issue of a single European currency .",Conservative/MISC,Conservative/ORG | British/MISC | Kenneth Clarke/PER | European/MISC,boundary error
+Results of British rugby union,British/MISC,British/LOC,wrong entity type
+Results of British rugby union,British/MISC,British/LOC,boundary error
+"The UK Department of Transport on Friday said that the latest round of "" open skies "" talks with the U.S. had ended with no deal on liberalising the transatlantic flight market and no date set for when talks would restart .",UK/LOC | Department of Transport/ORG | U.S./LOC,UK Department of Transport/ORG,boundary or spurious entity
+"The UK Department of Transport on Friday said that the latest round of "" open skies "" talks with the U.S. had ended with no deal on liberalising the transatlantic flight market and no date set for when talks would restart .",UK/LOC,UK Department of Transport/ORG | U.S./LOC,boundary error
+"The UK Department of Transport on Friday said that the latest round of "" open skies "" talks with the U.S. had ended with no deal on liberalising the transatlantic flight market and no date set for when talks would restart .",Department of Transport/ORG,UK Department of Transport/ORG | U.S./LOC,boundary error
+""" I know their ( the Zairean government 's ) position and I know it 's very delicate and we are very sensitive to their position also , "" the general added .",Zairean/MISC,Zairean/LOC,wrong entity type
+""" I know their ( the Zairean government 's ) position and I know it 's very delicate and we are very sensitive to their position also , "" the general added .",Zairean/MISC,Zairean/LOC,boundary error
+Senegal 's President Abdou Diouf said on Friday he was proposing his foreign minister Moustapha Niasse for the post of United Nations secretary-general .,Senegal/LOC | Abdou Diouf/PER | Moustapha Niasse/PER | United Nations/ORG,United/MISC,boundary or spurious entity
+Senegal 's President Abdou Diouf said on Friday he was proposing his foreign minister Moustapha Niasse for the post of United Nations secretary-general .,United Nations/ORG,Senegal/LOC | Abdou Diouf/PER | Moustapha Niasse/PER | United/MISC,boundary error
+West Indies tour manager Clive Lloyd has apologised for Lara 's behaviour on Tuesday .,West Indies/LOC | Clive Lloyd/PER | Lara/PER,West/MISC,boundary or spurious entity
+West Indies tour manager Clive Lloyd has apologised for Lara 's behaviour on Tuesday .,West Indies/LOC,West/MISC | Clive Lloyd/PER | Lara/PER,boundary error
+"Hooded protesters threw burning bottles and other objects at police in Pamplona after the protest organised by Herri Batasuna , the political wing of Basque separatist group ETA .",Pamplona/LOC | Herri Batasuna/ORG | Basque/MISC | ETA/ORG,Herri Batasuna/PER,wrong entity type
+"Hooded protesters threw burning bottles and other objects at police in Pamplona after the protest organised by Herri Batasuna , the political wing of Basque separatist group ETA .",Herri Batasuna/ORG,Pamplona/LOC | Herri Batasuna/PER | Basque/MISC | ETA/ORG,boundary error
+"A five-year-old girl in the east China city of Tianjin choked and almost died from cigarette smoke at her grandfather 's birthday with relatives smoking for hours in a small room , the Wen Hui Bao newspaper said on Friday .",China/LOC | Tianjin/LOC | Wen Hui Bao/ORG,Wen/LOC,boundary or spurious entity
+"A five-year-old girl in the east China city of Tianjin choked and almost died from cigarette smoke at her grandfather 's birthday with relatives smoking for hours in a small room , the Wen Hui Bao newspaper said on Friday .",China/LOC | Tianjin/LOC | Wen Hui Bao/ORG,Bao/ORG,boundary or spurious entity
+"A five-year-old girl in the east China city of Tianjin choked and almost died from cigarette smoke at her grandfather 's birthday with relatives smoking for hours in a small room , the Wen Hui Bao newspaper said on Friday .",Wen Hui Bao/ORG,China/LOC | Tianjin/LOC | Wen/LOC | Bao/ORG,boundary error
+Japan NTT says hopes to start int'l business soon .,Japan/LOC | NTT/ORG,Japan NTT/ORG,boundary or spurious entity
+Japan NTT says hopes to start int'l business soon .,Japan/LOC,Japan NTT/ORG,boundary error
+Japan NTT says hopes to start int'l business soon .,NTT/ORG,Japan NTT/ORG,boundary error
+One Global Depository Receipt represents 10 common shares .,,Global/ORG,boundary or spurious entity
+"The United Nations evacuated its staff in the Central African Republic on Friday because of mounting violence in a two-week-old army mutiny in the capital , a U.N. official said .",United Nations/ORG | Central African Republic/LOC | U.N./ORG,United/MISC,boundary or spurious entity
+"The United Nations evacuated its staff in the Central African Republic on Friday because of mounting violence in a two-week-old army mutiny in the capital , a U.N. official said .",United Nations/ORG | Central African Republic/LOC | U.N./ORG,U.N./LOC,wrong entity type
+"The United Nations evacuated its staff in the Central African Republic on Friday because of mounting violence in a two-week-old army mutiny in the capital , a U.N. official said .",United Nations/ORG,United/MISC | Central African Republic/LOC | U.N./LOC,boundary error
+"The United Nations evacuated its staff in the Central African Republic on Friday because of mounting violence in a two-week-old army mutiny in the capital , a U.N. official said .",U.N./ORG,United/MISC | Central African Republic/LOC | U.N./LOC,boundary error
+"Interfax , outlining Albright 's biography , pointed out that she had defended Washington 's interests fiercely as U.S. ambassador to the United Nations and that this had included actively supporting NATO 's plans to expand eastwards .",Interfax/ORG | Albright/PER | Washington/LOC | U.S./LOC | United Nations/ORG | NATO/ORG,Interfax/PER,wrong entity type
+"Interfax , outlining Albright 's biography , pointed out that she had defended Washington 's interests fiercely as U.S. ambassador to the United Nations and that this had included actively supporting NATO 's plans to expand eastwards .",Interfax/ORG | Albright/PER | Washington/LOC | U.S./LOC | United Nations/ORG | NATO/ORG,United/MISC,boundary or spurious entity
+"Interfax , outlining Albright 's biography , pointed out that she had defended Washington 's interests fiercely as U.S. ambassador to the United Nations and that this had included actively supporting NATO 's plans to expand eastwards .",Interfax/ORG | Albright/PER | Washington/LOC | U.S./LOC | United Nations/ORG | NATO/ORG,NATO/LOC,wrong entity type
+"Interfax , outlining Albright 's biography , pointed out that she had defended Washington 's interests fiercely as U.S. ambassador to the United Nations and that this had included actively supporting NATO 's plans to expand eastwards .",Interfax/ORG,Interfax/PER | Albright/PER | Washington/LOC | U.S./LOC | United/MISC | NATO/LOC,boundary error
+"Interfax , outlining Albright 's biography , pointed out that she had defended Washington 's interests fiercely as U.S. ambassador to the United Nations and that this had included actively supporting NATO 's plans to expand eastwards .",United Nations/ORG,Interfax/PER | Albright/PER | Washington/LOC | U.S./LOC | United/MISC | NATO/LOC,boundary error
+"Interfax , outlining Albright 's biography , pointed out that she had defended Washington 's interests fiercely as U.S. ambassador to the United Nations and that this had included actively supporting NATO 's plans to expand eastwards .",NATO/ORG,Interfax/PER | Albright/PER | Washington/LOC | U.S./LOC | United/MISC | NATO/LOC,boundary error
+Japan 2 Syria 1 ( halftime 0-1 ),Japan/LOC | Syria/LOC,Japan/ORG,wrong entity type
+Japan 2 Syria 1 ( halftime 0-1 ),Japan/LOC | Syria/LOC,Syria/ORG,wrong entity type
+Japan 2 Syria 1 ( halftime 0-1 ),Japan/LOC,Japan/ORG | Syria/ORG,boundary error
+Japan 2 Syria 1 ( halftime 0-1 ),Syria/LOC,Japan/ORG | Syria/ORG,boundary error
+"Iran Sabr 19/11/96 9,000 Iran",Iran Sabr/MISC | Iran/LOC,Iran/LOC,boundary or spurious entity
+"Iran Sabr 19/11/96 9,000 Iran",Iran Sabr/MISC,Iran/LOC | Iran/LOC,boundary error
+"Brazil exam cheats caught using "" pager "" watches .",Brazil/LOC,Brazil/MISC,wrong entity type
+"Brazil exam cheats caught using "" pager "" watches .",Brazil/LOC,Brazil/MISC,boundary error
+12-1 Fernando Redondo 9-1 Giovanni,Fernando Redondo/PER | Giovanni/PER,Giovanni/ORG,wrong entity type
+12-1 Fernando Redondo 9-1 Giovanni,Giovanni/PER,Fernando Redondo/PER | Giovanni/ORG,boundary error
+"Despite winning the Asian Games title two years ago , Uzbekistan are in the finals as outsiders .",Asian Games/MISC | Uzbekistan/LOC,Asian/MISC,boundary or spurious entity
+"Despite winning the Asian Games title two years ago , Uzbekistan are in the finals as outsiders .",Asian Games/MISC,Asian/MISC | Uzbekistan/LOC,boundary error
+"The Palestine Liberation Organisation ( PLO ) negotiators said the last two weeks of talks with Israel on implementing the long-delayed handover of most of Hebron to PLO rule had been "" meaningless "" , necessitating an Arafat-Netanyahu meeting .",Palestine Liberation Organisation/ORG | PLO/ORG | Israel/LOC | Hebron/LOC | PLO/ORG,Arafat-Netanyahu/PER,boundary or spurious entity
+MINNESOTA AT UTAH,MINNESOTA/ORG | UTAH/LOC,UTAH/ORG,wrong entity type
+MINNESOTA AT UTAH,UTAH/LOC,MINNESOTA/ORG | UTAH/ORG,boundary error
+South Korea made virtually certain of an Asian Cup quarter-final spot with a 4-2 win over Indonesia in a Group A match on Saturday .,South Korea/LOC | Asian Cup/MISC | Indonesia/LOC,Group/MISC,boundary or spurious entity
+Brian Shimer piloted USA III to a surprise victory in a World Cup two-man bobsleigh race on Saturday .,Brian Shimer/PER | USA III/ORG | World Cup/MISC,USA/MISC,boundary or spurious entity
+Brian Shimer piloted USA III to a surprise victory in a World Cup two-man bobsleigh race on Saturday .,Brian Shimer/PER | USA III/ORG | World Cup/MISC,World/MISC,boundary or spurious entity
+Brian Shimer piloted USA III to a surprise victory in a World Cup two-man bobsleigh race on Saturday .,USA III/ORG,Brian Shimer/PER | USA/MISC | World/MISC,boundary error
+Brian Shimer piloted USA III to a surprise victory in a World Cup two-man bobsleigh race on Saturday .,World Cup/MISC,Brian Shimer/PER | USA/MISC | World/MISC,boundary error
+Corn 79.6 163.5 9.4 95.7 252.0,,Corn/ORG,boundary or spurious entity
+"New Zealand Prime Minister Jim Bolger , emerging from coalition talks with the nationalist New Zealand First party on Friday afternoon , said National and NZ First would meet again on Sunday .",New Zealand/LOC | Jim Bolger/PER | New Zealand First/ORG | National/ORG | NZ First/ORG,Zealand/ORG,boundary or spurious entity
+"New Zealand Prime Minister Jim Bolger , emerging from coalition talks with the nationalist New Zealand First party on Friday afternoon , said National and NZ First would meet again on Sunday .",New Zealand/LOC,Zealand/ORG | Jim Bolger/PER | New Zealand First/ORG | National/ORG | NZ First/ORG,boundary error
+CRICKET - WOOLMER MAKES SENTIMENTAL RETURN TO KANPUR .,WOOLMER/PER,,false negative
+CRICKET - WOOLMER MAKES SENTIMENTAL RETURN TO KANPUR .,KANPUR/LOC,,false negative
+Contractors won 4-0 on aggregate .,,Contractors/ORG,boundary or spurious entity
+SOCCER - SPANISH FIRST DIVISION SUMMARY .,SPANISH/MISC,,false negative
+"7. Czech Republic I ( Jiri Dzmura , Pavel Polomsky )",Czech Republic I/ORG | Jiri Dzmura/PER | Pavel Polomsky/PER,Czech/PER,boundary or spurious entity
+"7. Czech Republic I ( Jiri Dzmura , Pavel Polomsky )",Czech Republic I/ORG | Jiri Dzmura/PER | Pavel Polomsky/PER,I/ORG,boundary or spurious entity
+"7. Czech Republic I ( Jiri Dzmura , Pavel Polomsky )",Czech Republic I/ORG,Czech/PER | I/ORG | Jiri Dzmura/PER | Pavel Polomsky/PER,boundary error
+Supple said any political gains the Singapore government would get from the WTO meeting -- ahead of a general election due by April 1997 -- would depend on how successful it was in pushing its economic agenda .,Supple/PER | Singapore/LOC | WTO/ORG,Singapore/MISC,wrong entity type
+Supple said any political gains the Singapore government would get from the WTO meeting -- ahead of a general election due by April 1997 -- would depend on how successful it was in pushing its economic agenda .,Singapore/LOC,Supple/PER | Singapore/MISC | WTO/ORG,boundary error
+C. Harris lbw b Wasim 22,C. Harris/PER | Wasim/PER,C./PER,boundary or spurious entity
+C. Harris lbw b Wasim 22,C. Harris/PER | Wasim/PER,Harris/PER,boundary or spurious entity
+C. Harris lbw b Wasim 22,C. Harris/PER,C./PER | Harris/PER | Wasim/PER,boundary error
+NEW JERSEY AT BOSTON,NEW JERSEY/ORG | BOSTON/LOC,NEW/ORG,boundary or spurious entity
+NEW JERSEY AT BOSTON,NEW JERSEY/ORG,NEW/ORG,boundary error
+NEW JERSEY AT BOSTON,BOSTON/LOC,NEW/ORG,false negative
+Sporting Gijon 15 4 4 7 15 22 16,Sporting/ORG,Sporting Gijon/ORG,boundary or spurious entity
+Sporting Gijon 15 4 4 7 15 22 16,Sporting/ORG,Sporting Gijon/ORG,boundary error
+Lula I 85 25/12 Sidi Kreir / Augusta W100 Exxon .,Lula I/MISC | Sidi Kreir/LOC | Augusta/LOC | Exxon/ORG,Lula I/ORG,wrong entity type
+Lula I 85 25/12 Sidi Kreir / Augusta W100 Exxon .,Lula I/MISC | Sidi Kreir/LOC | Augusta/LOC | Exxon/ORG,Sidi/ORG,boundary or spurious entity
+Lula I 85 25/12 Sidi Kreir / Augusta W100 Exxon .,Lula I/MISC | Sidi Kreir/LOC | Augusta/LOC | Exxon/ORG,Augusta W100/ORG,boundary or spurious entity
+Lula I 85 25/12 Sidi Kreir / Augusta W100 Exxon .,Lula I/MISC,Lula I/ORG | Sidi/ORG | Augusta W100/ORG | Exxon/ORG,boundary error
+Lula I 85 25/12 Sidi Kreir / Augusta W100 Exxon .,Sidi Kreir/LOC,Lula I/ORG | Sidi/ORG | Augusta W100/ORG | Exxon/ORG,boundary error
+Lula I 85 25/12 Sidi Kreir / Augusta W100 Exxon .,Augusta/LOC,Lula I/ORG | Sidi/ORG | Augusta W100/ORG | Exxon/ORG,boundary error
+"I 've also got a contract to play for New South Wales in the Super 12 next year . """,New South Wales/ORG,Super/ORG,boundary or spurious entity
+"Cuttitta announced his retirement after the 1995 World Cup , where he took issue with being dropped from the Italy side that faced England in the pool stages .",Cuttitta/PER | 1995 World Cup/MISC | Italy/LOC | England/LOC,World Cup/MISC,boundary or spurious entity
+"Cuttitta announced his retirement after the 1995 World Cup , where he took issue with being dropped from the Italy side that faced England in the pool stages .",1995 World Cup/MISC,Cuttitta/PER | World Cup/MISC | Italy/LOC | England/LOC,boundary error
+"Weah was suspended for one match by UEFA , European soccer 's governing body , pending a fuller investigation .",Weah/PER | UEFA/ORG | European/MISC,UEFA/LOC,wrong entity type
+"Weah was suspended for one match by UEFA , European soccer 's governing body , pending a fuller investigation .",Weah/PER | UEFA/ORG | European/MISC,European/LOC,wrong entity type
+"Weah was suspended for one match by UEFA , European soccer 's governing body , pending a fuller investigation .",UEFA/ORG,Weah/PER | UEFA/LOC | European/LOC,boundary error
+"Weah was suspended for one match by UEFA , European soccer 's governing body , pending a fuller investigation .",European/MISC,Weah/PER | UEFA/LOC | European/LOC,boundary error
+Manitoba Pork closing forward contract prices in Canadian dollars per hundred lbs ( Cwt ) for Dec 6 including minimum guaranteed price --,Manitoba Pork/ORG | Canadian/MISC,Cwt/ORG,boundary or spurious entity
+"Earlier , Posts and Telecommunications Minister Hisao Horinouchi told a news conference the government plans to split NTT into three firms under a holding company , but did not specify when the restructuring would likely take effect .",Hisao Horinouchi/PER | NTT/ORG,Posts/MISC,boundary or spurious entity
+Hapoel Beersheba 12 8 0 4 18 9 24,Hapoel Beersheba/ORG,Hapoel/ORG,boundary or spurious entity
+Hapoel Beersheba 12 8 0 4 18 9 24,Hapoel Beersheba/ORG,Hapoel/ORG,boundary error
+BUENOS AIRES 1996-12-06,BUENOS AIRES/LOC,BUENOS/LOC,boundary or spurious entity
+BUENOS AIRES 1996-12-06,BUENOS AIRES/LOC,BUENOS/LOC,boundary error
+"League teams after games played on Friday ( tabulate under won ,",League/ORG,,false negative
+"Peters said the talks with Labour and National had reached "" about the same level of completion , and that 's good "" .",Peters/PER | Labour/ORG | National/ORG,National/LOC,wrong entity type
+"Peters said the talks with Labour and National had reached "" about the same level of completion , and that 's good "" .",National/ORG,Peters/PER | Labour/ORG | National/LOC,boundary error
+Standings of National,National/ORG,National/LOC,wrong entity type
+Standings of National,National/ORG,National/LOC,boundary error
+Canadian West Coast Vessel Loadings - CWB .,Canadian/MISC,Canadian West Coast Vessel/ORG,boundary or spurious entity
+Canadian West Coast Vessel Loadings - CWB .,Canadian/MISC,CWB/ORG,boundary or spurious entity
+Canadian West Coast Vessel Loadings - CWB .,Canadian/MISC,Canadian West Coast Vessel/ORG | CWB/ORG,boundary error
+NY JETS 1 12 0 221 368,NY JETS/ORG,NY/ORG,boundary or spurious entity
+NY JETS 1 12 0 221 368,NY JETS/ORG,JETS/ORG,boundary or spurious entity
+NY JETS 1 12 0 221 368,NY JETS/ORG,NY/ORG | JETS/ORG,boundary error
+"8. Austria I ( Hubert Schoesser , Erwin Arnold ) 1:46.13",Austria I/ORG | Hubert Schoesser/PER | Erwin Arnold/PER,Austria I/PER,wrong entity type
+"8. Austria I ( Hubert Schoesser , Erwin Arnold ) 1:46.13",Austria I/ORG,Austria I/PER | Hubert Schoesser/PER | Erwin Arnold/PER,boundary error
+SQUASH - EYLES WITHIN SIGHT OF FIFTH TITLE OF YEAR .,EYLES/PER,,false negative
+NHL ICE HOCKEY - STANDINGS AFTER FRIDAY 'S GAMES .,NHL/ORG,,false negative
+"-- Brussels Newsroom +32 2 287 6810 , Fax +32 2 230 7710",Brussels Newsroom/ORG,Fax/ORG,boundary or spurious entity
+"German net green coffee imports from outside the EU totalled 7.73 million bags in January-August compared with 7.66 million in the year-ago period , the DKV coffee association said .",German/MISC | EU/ORG | DKV/ORG,EU/LOC,wrong entity type
+"German net green coffee imports from outside the EU totalled 7.73 million bags in January-August compared with 7.66 million in the year-ago period , the DKV coffee association said .",EU/ORG,German/MISC | EU/LOC | DKV/ORG,boundary error
+-- New York Commodities Desk +1 212 859 1640,New York Commodities Desk/ORG,New York Commodities/ORG,boundary or spurious entity
+-- New York Commodities Desk +1 212 859 1640,New York Commodities Desk/ORG,New York Commodities/ORG,boundary error
+Mediterranean oil products were steady to mostly lower on Friday after Elf refinery workers voted to end their nine-day strike .,Elf/ORG,Mediterranean/MISC,boundary or spurious entity
+Heavy rains on Saturday washed out the third round of the $ 1.5 million JCPenney Classic at the Innisbrook Hilton Resort .,JCPenney Classic/MISC | Innisbrook Hilton Resort/LOC,JCPenney Classic/ORG,wrong entity type
+Heavy rains on Saturday washed out the third round of the $ 1.5 million JCPenney Classic at the Innisbrook Hilton Resort .,JCPenney Classic/MISC | Innisbrook Hilton Resort/LOC,Innisbrook Hilton Resort/ORG,wrong entity type
+Heavy rains on Saturday washed out the third round of the $ 1.5 million JCPenney Classic at the Innisbrook Hilton Resort .,JCPenney Classic/MISC,JCPenney Classic/ORG | Innisbrook Hilton Resort/ORG,boundary error
+Heavy rains on Saturday washed out the third round of the $ 1.5 million JCPenney Classic at the Innisbrook Hilton Resort .,Innisbrook Hilton Resort/LOC,JCPenney Classic/ORG | Innisbrook Hilton Resort/ORG,boundary error
+Centre Jason Little will miss Australia 's end-of-tour fixture against the Barbarians at Twickenham on Saturday .,Jason Little/PER | Australia/LOC | Barbarians/ORG | Twickenham/LOC,Centre Jason Little/PER,boundary or spurious entity
+Centre Jason Little will miss Australia 's end-of-tour fixture against the Barbarians at Twickenham on Saturday .,Jason Little/PER,Centre Jason Little/PER | Australia/LOC | Barbarians/ORG | Twickenham/LOC,boundary error
+Scottish Cup first round,Scottish Cup/MISC,Scottish Cup/ORG,wrong entity type
+Scottish Cup first round,Scottish Cup/MISC,Scottish Cup/ORG,boundary error
+"Wall Street , since the bid , has speculated that any deal between Newmont and Santa Fe would be a "" bear hug , "" or a reluctantly negotiated agreement where the buyer is not necessarily a friendly suitor .",Wall Street/LOC | Newmont/ORG | Santa Fe/ORG,Wall/ORG,boundary or spurious entity
+"Wall Street , since the bid , has speculated that any deal between Newmont and Santa Fe would be a "" bear hug , "" or a reluctantly negotiated agreement where the buyer is not necessarily a friendly suitor .",Wall Street/LOC | Newmont/ORG | Santa Fe/ORG,Santa/ORG,boundary or spurious entity
+"Wall Street , since the bid , has speculated that any deal between Newmont and Santa Fe would be a "" bear hug , "" or a reluctantly negotiated agreement where the buyer is not necessarily a friendly suitor .",Wall Street/LOC,Wall/ORG | Newmont/ORG | Santa/ORG,boundary error
+"Wall Street , since the bid , has speculated that any deal between Newmont and Santa Fe would be a "" bear hug , "" or a reluctantly negotiated agreement where the buyer is not necessarily a friendly suitor .",Santa Fe/ORG,Wall/ORG | Newmont/ORG | Santa/ORG,boundary error
+"The protesting students , mostly from Rangoon University , were demanding the right to organise independent unions on campuses and the release of about 80 student leaders currently in jail .",Rangoon University/ORG,Rangoon/LOC,boundary or spurious entity
+"The protesting students , mostly from Rangoon University , were demanding the right to organise independent unions on campuses and the release of about 80 student leaders currently in jail .",Rangoon University/ORG,Rangoon/LOC,boundary error
+Chicago 0 0,Chicago/LOC,Chicago/ORG,wrong entity type
+Chicago 0 0,Chicago/LOC,Chicago/ORG,boundary error
+Costa has not played since being struck by the AC Milan forward after a bad-tempered European Champions ' League game on November 27 .,Costa/PER | AC Milan/ORG | European Champions ' League/MISC,Costa/LOC,wrong entity type
+Costa has not played since being struck by the AC Milan forward after a bad-tempered European Champions ' League game on November 27 .,Costa/PER | AC Milan/ORG | European Champions ' League/MISC,European/MISC,boundary or spurious entity
+Costa has not played since being struck by the AC Milan forward after a bad-tempered European Champions ' League game on November 27 .,Costa/PER | AC Milan/ORG | European Champions ' League/MISC,League/ORG,boundary or spurious entity
+Costa has not played since being struck by the AC Milan forward after a bad-tempered European Champions ' League game on November 27 .,Costa/PER,Costa/LOC | AC Milan/ORG | European/MISC | League/ORG,boundary error
+Costa has not played since being struck by the AC Milan forward after a bad-tempered European Champions ' League game on November 27 .,European Champions ' League/MISC,Costa/LOC | AC Milan/ORG | European/MISC | League/ORG,boundary error
+The loss by Philadelphia allowed the idle Green Bay Packers ( 10-3 ) to clinch the first NFC playoff berth .,Philadelphia/ORG | Green Bay Packers/ORG,Philadelphia/LOC,wrong entity type
+The loss by Philadelphia allowed the idle Green Bay Packers ( 10-3 ) to clinch the first NFC playoff berth .,Philadelphia/ORG | Green Bay Packers/ORG,NFC/MISC,boundary or spurious entity
+The loss by Philadelphia allowed the idle Green Bay Packers ( 10-3 ) to clinch the first NFC playoff berth .,Philadelphia/ORG,Philadelphia/LOC | Green Bay Packers/ORG | NFC/MISC,boundary error
+Flax 7.2 154.1 235.7 1.1 22.2 15.7,,Flax/ORG,boundary or spurious entity
+Albanian coach Astrit Hafizi said on Saturday it was important that his players brush aside the country 's short ban by FIFA in order to concentrate on next Saturday'sWorld Cup group nine qualifier against Northern Ireland .,Albanian/MISC | Astrit Hafizi/PER | FIFA/ORG | Saturday'sWorld Cup/MISC | Northern Ireland/LOC,FIFA/LOC,wrong entity type
+Albanian coach Astrit Hafizi said on Saturday it was important that his players brush aside the country 's short ban by FIFA in order to concentrate on next Saturday'sWorld Cup group nine qualifier against Northern Ireland .,Albanian/MISC | Astrit Hafizi/PER | FIFA/ORG | Saturday'sWorld Cup/MISC | Northern Ireland/LOC,Cup/ORG,boundary or spurious entity
+Albanian coach Astrit Hafizi said on Saturday it was important that his players brush aside the country 's short ban by FIFA in order to concentrate on next Saturday'sWorld Cup group nine qualifier against Northern Ireland .,FIFA/ORG,Albanian/MISC | Astrit Hafizi/PER | FIFA/LOC | Cup/ORG | Northern Ireland/LOC,boundary error
+Albanian coach Astrit Hafizi said on Saturday it was important that his players brush aside the country 's short ban by FIFA in order to concentrate on next Saturday'sWorld Cup group nine qualifier against Northern Ireland .,Saturday'sWorld Cup/MISC,Albanian/MISC | Astrit Hafizi/PER | FIFA/LOC | Cup/ORG | Northern Ireland/LOC,boundary error
+20-1 Luis Milla 25-1 Luis,Luis Milla/PER | Luis/PER,Luis/ORG,wrong entity type
+20-1 Luis Milla 25-1 Luis,Luis/PER,Luis Milla/PER | Luis/ORG,boundary error
+RIO DE JANEIRO 1996-12-06,RIO DE JANEIRO/LOC,RIO/LOC,boundary or spurious entity
+RIO DE JANEIRO 1996-12-06,RIO DE JANEIRO/LOC,JANEIRO/ORG,boundary or spurious entity
+RIO DE JANEIRO 1996-12-06,RIO DE JANEIRO/LOC,RIO/LOC | JANEIRO/ORG,boundary error
+Philadelphia 6 DALLAS 3,Philadelphia/LOC | DALLAS/LOC,Philadelphia/ORG,wrong entity type
+Philadelphia 6 DALLAS 3,Philadelphia/LOC | DALLAS/LOC,DALLAS/ORG,wrong entity type
+Philadelphia 6 DALLAS 3,Philadelphia/LOC,Philadelphia/ORG | DALLAS/ORG,boundary error
+Philadelphia 6 DALLAS 3,DALLAS/LOC,Philadelphia/ORG | DALLAS/ORG,boundary error
+"The Clinton administration 's strong views on this subject have been conveyed to the Greek government , Burns said .",Clinton/PER | Greek/MISC | Burns/PER,Clinton/MISC,wrong entity type
+"The Clinton administration 's strong views on this subject have been conveyed to the Greek government , Burns said .",Clinton/PER,Clinton/MISC | Greek/MISC | Burns/PER,boundary error
+"For synthetic rubber , production reached 68,200 tonnes in 1995/96 while consumption in the same season hit 134,085 tonnes , Matthew added .",Matthew/PER,Matthew/LOC,wrong entity type
+"For synthetic rubber , production reached 68,200 tonnes in 1995/96 while consumption in the same season hit 134,085 tonnes , Matthew added .",Matthew/PER,Matthew/LOC,boundary error
+"Russia opposes NATO 's plans to take in countries of eastern and central Europe which used to be part of the Soviet-led Warsaw Pact , saying such moves would threaten its security .",Russia/LOC | NATO/ORG | Europe/LOC | Soviet-led/MISC | Warsaw Pact/MISC,NATO/LOC,wrong entity type
+"Russia opposes NATO 's plans to take in countries of eastern and central Europe which used to be part of the Soviet-led Warsaw Pact , saying such moves would threaten its security .",Russia/LOC | NATO/ORG | Europe/LOC | Soviet-led/MISC | Warsaw Pact/MISC,Warsaw/MISC,boundary or spurious entity
+"Russia opposes NATO 's plans to take in countries of eastern and central Europe which used to be part of the Soviet-led Warsaw Pact , saying such moves would threaten its security .",NATO/ORG,Russia/LOC | NATO/LOC | Europe/LOC | Soviet-led/MISC | Warsaw/MISC,boundary error
+"Russia opposes NATO 's plans to take in countries of eastern and central Europe which used to be part of the Soviet-led Warsaw Pact , saying such moves would threaten its security .",Warsaw Pact/MISC,Russia/LOC | NATO/LOC | Europe/LOC | Soviet-led/MISC | Warsaw/MISC,boundary error
+Aninat also said he was confident the Chilean Congress would ratify the treaty with Congress quickly .,Aninat/PER | Chilean/MISC,Congress/LOC,boundary or spurious entity
+Premier league,Premier league/MISC,,false negative
+School football player banned for slashing opponents .,,School/MISC,boundary or spurious entity
+""" The EU and Poland have now reached a final settlement regarding issues related to the Polish import regime in the oils sector , "" the Commission said in a statement .",EU/ORG | Poland/LOC | Polish/MISC | Commission/ORG,EU/LOC,wrong entity type
+""" The EU and Poland have now reached a final settlement regarding issues related to the Polish import regime in the oils sector , "" the Commission said in a statement .",EU/ORG | Poland/LOC | Polish/MISC | Commission/ORG,Commission/LOC,wrong entity type
+""" The EU and Poland have now reached a final settlement regarding issues related to the Polish import regime in the oils sector , "" the Commission said in a statement .",EU/ORG,EU/LOC | Poland/LOC | Polish/MISC | Commission/LOC,boundary error
+""" The EU and Poland have now reached a final settlement regarding issues related to the Polish import regime in the oils sector , "" the Commission said in a statement .",Commission/ORG,EU/LOC | Poland/LOC | Polish/MISC | Commission/LOC,boundary error
+"Prison officials said Mills made no special request for a last meal and did not eat the steak , fried potatoes and orange juice offered him .",Mills/PER,Mills/LOC,wrong entity type
+"Prison officials said Mills made no special request for a last meal and did not eat the steak , fried potatoes and orange juice offered him .",Mills/PER,Mills/LOC,boundary error
+New York grain freight fixtures - Dec 5 .,New York/LOC,New York/ORG,wrong entity type
+New York grain freight fixtures - Dec 5 .,New York/LOC,New York/ORG,boundary error
+Dressed Basis Delivered not well tested .,,Basis/PER,boundary or spurious entity
+"Full strength Vicenza , led by Uruguayan Marcelo Otero , may continue their surprise run at the top against an Inter side that has been less than impressive in three successive home draws .",Vicenza/ORG | Uruguayan/MISC | Marcelo Otero/PER | Inter/ORG,Uruguayan/PER,wrong entity type
+"Full strength Vicenza , led by Uruguayan Marcelo Otero , may continue their surprise run at the top against an Inter side that has been less than impressive in three successive home draws .",Vicenza/ORG | Uruguayan/MISC | Marcelo Otero/PER | Inter/ORG,Inter/MISC,wrong entity type
+"Full strength Vicenza , led by Uruguayan Marcelo Otero , may continue their surprise run at the top against an Inter side that has been less than impressive in three successive home draws .",Uruguayan/MISC,Vicenza/ORG | Uruguayan/PER | Marcelo Otero/PER | Inter/MISC,boundary error
+"Full strength Vicenza , led by Uruguayan Marcelo Otero , may continue their surprise run at the top against an Inter side that has been less than impressive in three successive home draws .",Inter/ORG,Vicenza/ORG | Uruguayan/PER | Marcelo Otero/PER | Inter/MISC,boundary error
+""" It is to their shame that those who are responsible for encouraging this meeting responded ( to the pressure ) in silencing him , "" Jordan said after the opening of an ICFTU conference on international labour standards and trade .",Jordan/PER | ICFTU/ORG,ICFTU/MISC,wrong entity type
+""" It is to their shame that those who are responsible for encouraging this meeting responded ( to the pressure ) in silencing him , "" Jordan said after the opening of an ICFTU conference on international labour standards and trade .",ICFTU/ORG,Jordan/PER | ICFTU/MISC,boundary error
+NHL ICE HOCKEY - FRIDAY 'S RESULTS .,NHL/ORG,,false negative
+Syria - Nader Jokhadar 7,Syria/LOC | Nader Jokhadar/PER,Syria/PER,wrong entity type
+Syria - Nader Jokhadar 7,Syria/LOC,Syria/PER | Nader Jokhadar/PER,boundary error
+"Other facts : As a qualifier for the 1993 World Cup finals through Europa Cup results , 16-year-old Goetschl won the slalom to become history 's youngest World Cup victor .",1993 World Cup/MISC | Europa Cup/MISC | Goetschl/PER | World Cup/MISC,World/MISC,boundary or spurious entity
+"Other facts : As a qualifier for the 1993 World Cup finals through Europa Cup results , 16-year-old Goetschl won the slalom to become history 's youngest World Cup victor .",1993 World Cup/MISC | Europa Cup/MISC | Goetschl/PER | World Cup/MISC,Cup/MISC,boundary or spurious entity
+"Other facts : As a qualifier for the 1993 World Cup finals through Europa Cup results , 16-year-old Goetschl won the slalom to become history 's youngest World Cup victor .",1993 World Cup/MISC | Europa Cup/MISC | Goetschl/PER | World Cup/MISC,Europa/MISC,boundary or spurious entity
+"Other facts : As a qualifier for the 1993 World Cup finals through Europa Cup results , 16-year-old Goetschl won the slalom to become history 's youngest World Cup victor .",1993 World Cup/MISC,World/MISC | Cup/MISC | Europa/MISC | Goetschl/PER | World Cup/MISC,boundary error
+"Other facts : As a qualifier for the 1993 World Cup finals through Europa Cup results , 16-year-old Goetschl won the slalom to become history 's youngest World Cup victor .",Europa Cup/MISC,World/MISC | Cup/MISC | Europa/MISC | Goetschl/PER | World Cup/MISC,boundary error
+NCAA AMERICAN FOOTBALL-OHIO STATE 'S PACE FIRST REPEAT LOMBARDI AWARD WINNER .,NCAA/ORG,,false negative
+NCAA AMERICAN FOOTBALL-OHIO STATE 'S PACE FIRST REPEAT LOMBARDI AWARD WINNER .,FOOTBALL-OHIO STATE/MISC,,false negative
+NCAA AMERICAN FOOTBALL-OHIO STATE 'S PACE FIRST REPEAT LOMBARDI AWARD WINNER .,PACE/PER,,false negative
+NCAA AMERICAN FOOTBALL-OHIO STATE 'S PACE FIRST REPEAT LOMBARDI AWARD WINNER .,LOMBARDI AWARD/MISC,,false negative
+"Parma may field new signing , Croat midfielder Mario Stanic , in an attempt to lift a miserable season which has seen them go without a win since a 1-0 triumph over Cagliari eight weeks ago .",Parma/ORG | Croat/MISC | Mario Stanic/PER | Cagliari/ORG,Parma/LOC,wrong entity type
+"Parma may field new signing , Croat midfielder Mario Stanic , in an attempt to lift a miserable season which has seen them go without a win since a 1-0 triumph over Cagliari eight weeks ago .",Parma/ORG | Croat/MISC | Mario Stanic/PER | Cagliari/ORG,Croat/ORG,wrong entity type
+"Parma may field new signing , Croat midfielder Mario Stanic , in an attempt to lift a miserable season which has seen them go without a win since a 1-0 triumph over Cagliari eight weeks ago .",Parma/ORG,Parma/LOC | Croat/ORG | Mario Stanic/PER | Cagliari/ORG,boundary error
+"Parma may field new signing , Croat midfielder Mario Stanic , in an attempt to lift a miserable season which has seen them go without a win since a 1-0 triumph over Cagliari eight weeks ago .",Croat/MISC,Parma/LOC | Croat/ORG | Mario Stanic/PER | Cagliari/ORG,boundary error
+"Rashid , 46 , was sentenced to 18 years in prison by a Greek court in 1992 after being convicted of premeditated murder in the mid-air bombing of a Pan American airliner in 1982 .",Rashid/PER | Greek/MISC | Pan American/MISC,Greek/LOC,wrong entity type
+"Rashid , 46 , was sentenced to 18 years in prison by a Greek court in 1992 after being convicted of premeditated murder in the mid-air bombing of a Pan American airliner in 1982 .",Rashid/PER | Greek/MISC | Pan American/MISC,Pan/MISC,boundary or spurious entity
+"Rashid , 46 , was sentenced to 18 years in prison by a Greek court in 1992 after being convicted of premeditated murder in the mid-air bombing of a Pan American airliner in 1982 .",Greek/MISC,Rashid/PER | Greek/LOC | Pan/MISC,boundary error
+"Rashid , 46 , was sentenced to 18 years in prison by a Greek court in 1992 after being convicted of premeditated murder in the mid-air bombing of a Pan American airliner in 1982 .",Pan American/MISC,Rashid/PER | Greek/LOC | Pan/MISC,boundary error
+"MANTUA , Italy 1996-12-06",Italy/LOC,MANTUA/LOC,boundary or spurious entity
+Celta Vigo 15 5 5 5 17 17 20,Celta Vigo/ORG,Celta/ORG,boundary or spurious entity
+Celta Vigo 15 5 5 5 17 17 20,Celta Vigo/ORG,Vigo/ORG,boundary or spurious entity
+Celta Vigo 15 5 5 5 17 17 20,Celta Vigo/ORG,Celta/ORG | Vigo/ORG,boundary error
+West Indies were 53 for two in 15 overs when rain stopped play at the Melbourne Cricket Ground after captain Courtney Walsh won the toss and elected to bat .,West Indies/LOC | Melbourne Cricket Ground/LOC | Courtney Walsh/PER,West/LOC,boundary or spurious entity
+West Indies were 53 for two in 15 overs when rain stopped play at the Melbourne Cricket Ground after captain Courtney Walsh won the toss and elected to bat .,West Indies/LOC | Melbourne Cricket Ground/LOC | Courtney Walsh/PER,Melbourne Cricket Ground/ORG,wrong entity type
+West Indies were 53 for two in 15 overs when rain stopped play at the Melbourne Cricket Ground after captain Courtney Walsh won the toss and elected to bat .,West Indies/LOC,West/LOC | Melbourne Cricket Ground/ORG | Courtney Walsh/PER,boundary error
+West Indies were 53 for two in 15 overs when rain stopped play at the Melbourne Cricket Ground after captain Courtney Walsh won the toss and elected to bat .,Melbourne Cricket Ground/LOC,West/LOC | Melbourne Cricket Ground/ORG | Courtney Walsh/PER,boundary error
+"St. Louis 217,092 75,810",St. Louis/LOC,St. Louis/PER,wrong entity type
+"St. Louis 217,092 75,810",St. Louis/LOC,St. Louis/PER,boundary error
+"Alatas said on Tuesday that on his way back from Oslo , Belo would visit the Vatican to see the Pope , and would also meet German Chancellor Helmut Kohl in Bonn .",Alatas/PER | Oslo/LOC | Belo/PER | Vatican/LOC | German/MISC | Helmut Kohl/PER | Bonn/LOC,Pope/LOC,boundary or spurious entity
+ST LOUIS AT COLORADO,ST LOUIS/ORG | COLORADO/LOC,ST/ORG,boundary or spurious entity
+ST LOUIS AT COLORADO,ST LOUIS/ORG,ST/ORG,boundary error
+ST LOUIS AT COLORADO,COLORADO/LOC,ST/ORG,false negative
+Hines ) 1:46.34 ( 53.14 / 53.20 ) and Austria III,Hines/PER,Austria III/ORG,false negative
+West Indies were all out for 172 off 49.2 overs in the World Series limited overs match against Australia on Friday .,West Indies/LOC | World Series/MISC | Australia/LOC,West/LOC,boundary or spurious entity
+West Indies were all out for 172 off 49.2 overs in the World Series limited overs match against Australia on Friday .,West Indies/LOC | World Series/MISC | Australia/LOC,World/MISC,boundary or spurious entity
+West Indies were all out for 172 off 49.2 overs in the World Series limited overs match against Australia on Friday .,West Indies/LOC,West/LOC | World/MISC | Australia/LOC,boundary error
+West Indies were all out for 172 off 49.2 overs in the World Series limited overs match against Australia on Friday .,World Series/MISC,West/LOC | World/MISC | Australia/LOC,boundary error
+BOBSLEIGH-WORLD CUP TWO-MAN RESULTS .,BOBSLEIGH-WORLD CUP/MISC,,false negative
+"Today , Rottweilers are on the way up , "" Rieck said .",Rottweilers/MISC | Rieck/PER,Rottweilers/PER,wrong entity type
+"Today , Rottweilers are on the way up , "" Rieck said .",Rottweilers/MISC,Rottweilers/PER | Rieck/PER,boundary error
+WESTERN CONFERENCE,,WESTERN/ORG,boundary or spurious entity
+CENTRAL DIVISION,,CENTRAL/ORG,boundary or spurious entity
+Mar 97 76.37 76.12 72.02 73.47-78.24,,Mar/ORG,boundary or spurious entity
+KANSAS CITY AT OAKLAND,KANSAS CITY/ORG | OAKLAND/LOC,KANSAS/ORG,boundary or spurious entity
+KANSAS CITY AT OAKLAND,KANSAS CITY/ORG,KANSAS/ORG,boundary error
+KANSAS CITY AT OAKLAND,OAKLAND/LOC,KANSAS/ORG,false negative
+"A bomb exploded on Friday at a mosque in the central Bulgarian town of Kazanluk , causing damage but no injuries , state radio said .",Bulgarian/MISC | Kazanluk/LOC,Bulgarian/LOC,wrong entity type
+"A bomb exploded on Friday at a mosque in the central Bulgarian town of Kazanluk , causing damage but no injuries , state radio said .",Bulgarian/MISC,Bulgarian/LOC | Kazanluk/LOC,boundary error
+""" It is unlikely that Norilsk will pay these debts in the near-term -- the company will remain a debtor in the near future , "" Chernyshev said .",Norilsk/ORG | Chernyshev/PER,Norilsk/PER,wrong entity type
+""" It is unlikely that Norilsk will pay these debts in the near-term -- the company will remain a debtor in the near future , "" Chernyshev said .",Norilsk/ORG,Norilsk/PER | Chernyshev/PER,boundary error
+"Chelsea 2 ( Zola 12 , Vialli 55 ) Everton 2 ( Branch 17 ,",Chelsea/ORG | Zola/PER | Vialli/PER | Everton/ORG | Branch/PER,Zola/ORG,wrong entity type
+"Chelsea 2 ( Zola 12 , Vialli 55 ) Everton 2 ( Branch 17 ,",Chelsea/ORG | Zola/PER | Vialli/PER | Everton/ORG | Branch/PER,Branch/ORG,wrong entity type
+"Chelsea 2 ( Zola 12 , Vialli 55 ) Everton 2 ( Branch 17 ,",Zola/PER,Chelsea/ORG | Zola/ORG | Vialli/PER | Everton/ORG | Branch/ORG,boundary error
+"Chelsea 2 ( Zola 12 , Vialli 55 ) Everton 2 ( Branch 17 ,",Branch/PER,Chelsea/ORG | Zola/ORG | Vialli/PER | Everton/ORG | Branch/ORG,boundary error
+Romania trainer Anghel Iordanescu called up three uncapped players on Friday in his squad to face Macedonia next week in a World Cup qualifier .,Romania/LOC | Anghel Iordanescu/PER | Macedonia/LOC | World Cup/MISC,Romania/MISC,wrong entity type
+Romania trainer Anghel Iordanescu called up three uncapped players on Friday in his squad to face Macedonia next week in a World Cup qualifier .,Romania/LOC | Anghel Iordanescu/PER | Macedonia/LOC | World Cup/MISC,World/MISC,boundary or spurious entity
+Romania trainer Anghel Iordanescu called up three uncapped players on Friday in his squad to face Macedonia next week in a World Cup qualifier .,Romania/LOC | Anghel Iordanescu/PER | Macedonia/LOC | World Cup/MISC,Cup/MISC,boundary or spurious entity
+Romania trainer Anghel Iordanescu called up three uncapped players on Friday in his squad to face Macedonia next week in a World Cup qualifier .,Romania/LOC,Romania/MISC | Anghel Iordanescu/PER | Macedonia/LOC | World/MISC | Cup/MISC,boundary error
+Romania trainer Anghel Iordanescu called up three uncapped players on Friday in his squad to face Macedonia next week in a World Cup qualifier .,World Cup/MISC,Romania/MISC | Anghel Iordanescu/PER | Macedonia/LOC | World/MISC | Cup/MISC,boundary error
+Kansas feedlot cattle roundup - USDA .,Kansas/LOC | USDA/ORG,Kansas/MISC,wrong entity type
+Kansas feedlot cattle roundup - USDA .,Kansas/LOC,Kansas/MISC | USDA/ORG,boundary error
+13= Picabo Street ( U.S. ) 50,Picabo Street/PER | U.S./LOC,Picabo Street/ORG,wrong entity type
+13= Picabo Street ( U.S. ) 50,Picabo Street/PER,Picabo Street/ORG | U.S./LOC,boundary error
+Glenavon 10 3 4 3 15 14 13,Glenavon/ORG,Glenavon/PER,wrong entity type
+Glenavon 10 3 4 3 15 14 13,Glenavon/ORG,Glenavon/PER,boundary error
+"Trade and Industry Secretary Ian Lang added that even if the conditions were met by both airlines , final clearance would hinge on an open skies deal between Britain and the United States to liberalise trans-Atlantic air traffic , which would create greater competition on the routes .",Trade and Industry/ORG | Ian Lang/PER | Britain/LOC | United States/LOC | trans-Atlantic/MISC,Trade/MISC,boundary or spurious entity
+"Trade and Industry Secretary Ian Lang added that even if the conditions were met by both airlines , final clearance would hinge on an open skies deal between Britain and the United States to liberalise trans-Atlantic air traffic , which would create greater competition on the routes .",Trade and Industry/ORG | Ian Lang/PER | Britain/LOC | United States/LOC | trans-Atlantic/MISC,Industry/ORG,boundary or spurious entity
+"Trade and Industry Secretary Ian Lang added that even if the conditions were met by both airlines , final clearance would hinge on an open skies deal between Britain and the United States to liberalise trans-Atlantic air traffic , which would create greater competition on the routes .",Trade and Industry/ORG | Ian Lang/PER | Britain/LOC | United States/LOC | trans-Atlantic/MISC,United/LOC,boundary or spurious entity
+"Trade and Industry Secretary Ian Lang added that even if the conditions were met by both airlines , final clearance would hinge on an open skies deal between Britain and the United States to liberalise trans-Atlantic air traffic , which would create greater competition on the routes .",Trade and Industry/ORG,Trade/MISC | Industry/ORG | Ian Lang/PER | Britain/LOC | United/LOC,boundary error
+"Trade and Industry Secretary Ian Lang added that even if the conditions were met by both airlines , final clearance would hinge on an open skies deal between Britain and the United States to liberalise trans-Atlantic air traffic , which would create greater competition on the routes .",United States/LOC,Trade/MISC | Industry/ORG | Ian Lang/PER | Britain/LOC | United/LOC,boundary error
+"Trade and Industry Secretary Ian Lang added that even if the conditions were met by both airlines , final clearance would hinge on an open skies deal between Britain and the United States to liberalise trans-Atlantic air traffic , which would create greater competition on the routes .",trans-Atlantic/MISC,Trade/MISC | Industry/ORG | Ian Lang/PER | Britain/LOC | United/LOC,false negative
+Results in last of the group matches at the World Grand Prix badminton finals on Friday :,World Grand Prix/MISC,World/MISC,boundary or spurious entity
+Results in last of the group matches at the World Grand Prix badminton finals on Friday :,World Grand Prix/MISC,Prix/ORG,boundary or spurious entity
+Results in last of the group matches at the World Grand Prix badminton finals on Friday :,World Grand Prix/MISC,World/MISC | Prix/ORG,boundary error
+"Van Boxmeer said Zywiec had its eye on Okocim , which has said it would start producing Carlsberg beer next year , but that Zywiec 's potential production of Heineken was a medium-term possibility rather than a short-term one .",Van Boxmeer/PER | Zywiec/ORG | Okocim/ORG | Carlsberg/ORG | Zywiec/ORG | Heineken/ORG,Van/ORG,boundary or spurious entity
+"Van Boxmeer said Zywiec had its eye on Okocim , which has said it would start producing Carlsberg beer next year , but that Zywiec 's potential production of Heineken was a medium-term possibility rather than a short-term one .",Van Boxmeer/PER,Van/ORG | Zywiec/ORG | Okocim/ORG | Carlsberg/ORG | Zywiec/ORG | Heineken/ORG,boundary error
+CENTRAL DIVISION,CENTRAL DIVISION/MISC,CENTRAL/ORG,boundary or spurious entity
+CENTRAL DIVISION,CENTRAL DIVISION/MISC,CENTRAL/ORG,boundary error
+"Syria : 24 - Salem Bitar , 3 - Bachar Srour ; 4 - Hassan Abbas , 5 - Tarek Jabban , 6 - Ammar Awad ( 9 - Louay Taleb 69 ) , 8 - Nihad al-Boushi , 10 - Mohammed Afash , 12 - Ali Dib , 13 - Abdul Latif Helou ( 17 - Ammar Rihawiy 46 ) , 14 - Khaled Zaher ; 16 - Nader Jokhadar .",Syria/LOC | Salem Bitar/PER | Bachar Srour/PER | Hassan Abbas/PER | Tarek Jabban/PER | Ammar Awad/PER | Louay Taleb/PER | Nihad al-Boushi/PER | Mohammed Afash/PER | Ali Dib/PER | Abdul Latif Helou/PER | Ammar Rihawiy/PER | Khaled Zaher/PER | Nader Jokhadar/PER,Nihad/PER,boundary or spurious entity
+"Syria : 24 - Salem Bitar , 3 - Bachar Srour ; 4 - Hassan Abbas , 5 - Tarek Jabban , 6 - Ammar Awad ( 9 - Louay Taleb 69 ) , 8 - Nihad al-Boushi , 10 - Mohammed Afash , 12 - Ali Dib , 13 - Abdul Latif Helou ( 17 - Ammar Rihawiy 46 ) , 14 - Khaled Zaher ; 16 - Nader Jokhadar .",Syria/LOC,Salem Bitar/PER | Bachar Srour/PER | Hassan Abbas/PER | Tarek Jabban/PER | Ammar Awad/PER | Louay Taleb/PER | Nihad/PER | Mohammed Afash/PER | Ali Dib/PER | Abdul Latif Helou/PER | Ammar Rihawiy/PER | Khaled Zaher/PER | Nader Jokhadar/PER,false negative
+"Syria : 24 - Salem Bitar , 3 - Bachar Srour ; 4 - Hassan Abbas , 5 - Tarek Jabban , 6 - Ammar Awad ( 9 - Louay Taleb 69 ) , 8 - Nihad al-Boushi , 10 - Mohammed Afash , 12 - Ali Dib , 13 - Abdul Latif Helou ( 17 - Ammar Rihawiy 46 ) , 14 - Khaled Zaher ; 16 - Nader Jokhadar .",Nihad al-Boushi/PER,Salem Bitar/PER | Bachar Srour/PER | Hassan Abbas/PER | Tarek Jabban/PER | Ammar Awad/PER | Louay Taleb/PER | Nihad/PER | Mohammed Afash/PER | Ali Dib/PER | Abdul Latif Helou/PER | Ammar Rihawiy/PER | Khaled Zaher/PER | Nader Jokhadar/PER,boundary error
+TORONTO AT NY RANGERS,NY RANGERS/ORG,TORONTO/ORG,false negative
+Saturday 's women 's World Cup super G race :,World Cup/MISC,World/MISC,boundary or spurious entity
+Saturday 's women 's World Cup super G race :,World Cup/MISC,G/ORG,boundary or spurious entity
+Saturday 's women 's World Cup super G race :,World Cup/MISC,World/MISC | G/ORG,boundary error
+Millet unq unq 90 unq,,Millet/ORG,boundary or spurious entity
+A Lebanese military court on Friday sentenced to death in absentia the commander of Israel 's surrogate militia in south Lebanon on treason charges .,Lebanese/MISC | Israel/LOC | Lebanon/LOC,Lebanese/LOC,wrong entity type
+A Lebanese military court on Friday sentenced to death in absentia the commander of Israel 's surrogate militia in south Lebanon on treason charges .,Lebanese/MISC,Lebanese/LOC | Israel/LOC | Lebanon/LOC,boundary error
+Cricket - Pakistan beat New Zealand by 46 runs .,Pakistan/LOC | New Zealand/LOC,Cricket/ORG,boundary or spurious entity
+NEW DELHI 1996-12-06,NEW DELHI/LOC,NEW/LOC,boundary or spurious entity
+NEW DELHI 1996-12-06,NEW DELHI/LOC,NEW/LOC,boundary error
+F.A. Challenge Cup second round,F.A. Challenge Cup/MISC,F.A. Challenge Cup/ORG,wrong entity type
+F.A. Challenge Cup second round,F.A. Challenge Cup/MISC,F.A. Challenge Cup/ORG,boundary error
+"NZ 's Peters says Nat , Lab talks at similar stage .",NZ/LOC | Peters/PER | Nat/PER | Lab/PER,NZ/PER,wrong entity type
+"NZ 's Peters says Nat , Lab talks at similar stage .",NZ/LOC,NZ/PER | Peters/PER | Nat/PER | Lab/PER,boundary error
+Attempts by copyright-based industries to ensure they get a cut from online works led to a storm of protests by Internet companies and critics who say the pacts would curb public access to online information from soccer results to stock prices .,Internet/MISC,,false negative
+( ( Chicago Newsdesk 312-408-8720 ) ),Chicago Newsdesk/ORG,Chicago/LOC,boundary or spurious entity
+( ( Chicago Newsdesk 312-408-8720 ) ),Chicago Newsdesk/ORG,Chicago/LOC,boundary error
+PACIFIC DIVISION,PACIFIC/LOC,PACIFIC/ORG,wrong entity type
+PACIFIC DIVISION,PACIFIC/LOC,PACIFIC/ORG,boundary error
+WESTERN CONFERENCE,,WESTERN/ORG,boundary or spurious entity
+"The government also wants British Airways to drop a clause in its agreement with USAir that bars it from competing on trans-Atlantic routes , and said both British Airways and American should be prepared to reduce services on the London to Dallas-Fort Worth route in the event that a new entrant wishes to enter .",British Airways/ORG | USAir/ORG | trans-Atlantic/MISC | British Airways/ORG | American/ORG | London/LOC | Dallas-Fort Worth/LOC,American/LOC,wrong entity type
+"The government also wants British Airways to drop a clause in its agreement with USAir that bars it from competing on trans-Atlantic routes , and said both British Airways and American should be prepared to reduce services on the London to Dallas-Fort Worth route in the event that a new entrant wishes to enter .",trans-Atlantic/MISC,British Airways/ORG | USAir/ORG | British Airways/ORG | American/LOC | London/LOC | Dallas-Fort Worth/LOC,false negative
+"The government also wants British Airways to drop a clause in its agreement with USAir that bars it from competing on trans-Atlantic routes , and said both British Airways and American should be prepared to reduce services on the London to Dallas-Fort Worth route in the event that a new entrant wishes to enter .",American/ORG,British Airways/ORG | USAir/ORG | British Airways/ORG | American/LOC | London/LOC | Dallas-Fort Worth/LOC,boundary error
+TORONTO AT ATLANTA,TORONTO/ORG | ATLANTA/LOC,ATLANTA/ORG,wrong entity type
+TORONTO AT ATLANTA,ATLANTA/LOC,TORONTO/ORG | ATLANTA/ORG,boundary error
+"Pro-European Conservative MP Edwina Currie told the BBC that if Clarke resigned , other ministers would go with him .",Pro-European/MISC,Edwina Currie/PER | BBC/ORG | Clarke/PER,false negative
+"Pro-European Conservative MP Edwina Currie told the BBC that if Clarke resigned , other ministers would go with him .",Conservative/MISC,Edwina Currie/PER | BBC/ORG | Clarke/PER,false negative
+Australia beat West Indies by five wickets in a World Series limited overs match at the Melbourne Cricket Ground on Friday .,Australia/LOC | West Indies/LOC | World Series/MISC | Melbourne Cricket Ground/LOC,West/LOC,boundary or spurious entity
+Australia beat West Indies by five wickets in a World Series limited overs match at the Melbourne Cricket Ground on Friday .,Australia/LOC | West Indies/LOC | World Series/MISC | Melbourne Cricket Ground/LOC,Melbourne Cricket Ground/ORG,wrong entity type
+Australia beat West Indies by five wickets in a World Series limited overs match at the Melbourne Cricket Ground on Friday .,West Indies/LOC,Australia/LOC | West/LOC | World Series/MISC | Melbourne Cricket Ground/ORG,boundary error
+Australia beat West Indies by five wickets in a World Series limited overs match at the Melbourne Cricket Ground on Friday .,Melbourne Cricket Ground/LOC,Australia/LOC | West/LOC | World Series/MISC | Melbourne Cricket Ground/ORG,boundary error
+Maize ( Flint ) 113 114 113.7 112,,Maize/PER,boundary or spurious entity
+Maize ( Flint ) 113 114 113.7 112,,Flint/LOC,boundary or spurious entity
+5. France 853,France/LOC,France/PER,wrong entity type
+5. France 853,France/LOC,France/PER,boundary error
+"Did not bat : I. Healy , P. Reiffel , S. Warne , J. Gillespie .",I. Healy/PER | P. Reiffel/PER | S. Warne/PER | J. Gillespie/PER,I./PER,boundary or spurious entity
+"Did not bat : I. Healy , P. Reiffel , S. Warne , J. Gillespie .",I. Healy/PER | P. Reiffel/PER | S. Warne/PER | J. Gillespie/PER,Healy/PER,boundary or spurious entity
+"Did not bat : I. Healy , P. Reiffel , S. Warne , J. Gillespie .",I. Healy/PER | P. Reiffel/PER | S. Warne/PER | J. Gillespie/PER,J./PER,boundary or spurious entity
+"Did not bat : I. Healy , P. Reiffel , S. Warne , J. Gillespie .",I. Healy/PER | P. Reiffel/PER | S. Warne/PER | J. Gillespie/PER,Gillespie/PER,boundary or spurious entity
+"Did not bat : I. Healy , P. Reiffel , S. Warne , J. Gillespie .",I. Healy/PER,I./PER | Healy/PER | P. Reiffel/PER | S. Warne/PER | J./PER | Gillespie/PER,boundary error
+"Did not bat : I. Healy , P. Reiffel , S. Warne , J. Gillespie .",J. Gillespie/PER,I./PER | Healy/PER | P. Reiffel/PER | S. Warne/PER | J./PER | Gillespie/PER,boundary error
+Skinheads attack Bratislava Rabbi - police .,Bratislava/LOC,Bratislava/MISC,wrong entity type
+Skinheads attack Bratislava Rabbi - police .,Bratislava/LOC,Bratislava/MISC,boundary error
+Mills was scheduled to die Wednesday but had his sentence temporarily postponed by the Florida Supreme Court .,Mills/PER | Florida Supreme Court/ORG,Florida/LOC,boundary or spurious entity
+Mills was scheduled to die Wednesday but had his sentence temporarily postponed by the Florida Supreme Court .,Mills/PER | Florida Supreme Court/ORG,Court/ORG,boundary or spurious entity
+Mills was scheduled to die Wednesday but had his sentence temporarily postponed by the Florida Supreme Court .,Florida Supreme Court/ORG,Mills/PER | Florida/LOC | Court/ORG,boundary error
+"Iordanescu said he had picked them because of their good performances in the domestic championship in which National Bucharest are top and Otelul Galati third . """,Iordanescu/PER | National Bucharest/ORG | Otelul Galati/ORG,National/MISC,boundary or spurious entity
+"Iordanescu said he had picked them because of their good performances in the domestic championship in which National Bucharest are top and Otelul Galati third . """,Iordanescu/PER | National Bucharest/ORG | Otelul Galati/ORG,Otelul/ORG,boundary or spurious entity
+"Iordanescu said he had picked them because of their good performances in the domestic championship in which National Bucharest are top and Otelul Galati third . """,Iordanescu/PER | National Bucharest/ORG | Otelul Galati/ORG,Galati/ORG,boundary or spurious entity
+"Iordanescu said he had picked them because of their good performances in the domestic championship in which National Bucharest are top and Otelul Galati third . """,National Bucharest/ORG,Iordanescu/PER | National/MISC | Otelul/ORG | Galati/ORG,boundary error
+"Iordanescu said he had picked them because of their good performances in the domestic championship in which National Bucharest are top and Otelul Galati third . """,Otelul Galati/ORG,Iordanescu/PER | National/MISC | Otelul/ORG | Galati/ORG,boundary error
+Scoreboard in the World Series,World Series/MISC,World/MISC,boundary or spurious entity
+Scoreboard in the World Series,World Series/MISC,World/MISC,boundary error
+Electronic Data bags flight data contract .,Electronic Data/ORG,Electronic Data bags/ORG,boundary or spurious entity
+Electronic Data bags flight data contract .,Electronic Data/ORG,Electronic Data bags/ORG,boundary error
+"14 years later , Florida man dies for killing .",Florida/LOC,Florida/PER,wrong entity type
+"14 years later , Florida man dies for killing .",Florida/LOC,Florida/PER,boundary error
+UNITED NATIONS 1996-12-06,UNITED NATIONS/ORG,UNITED/LOC,boundary or spurious entity
+UNITED NATIONS 1996-12-06,UNITED NATIONS/ORG,UNITED/LOC,boundary error
+"There is the international prestige Singapore would enjoy , but "" more importantly there is a genuine national interest in fostering better global free trade and an open market "" , said Tan Kong Yam , head of Business Policy at the National University of Singapore .",Singapore/LOC | Tan Kong Yam/PER | National University of Singapore/ORG,Business Policy/ORG,boundary or spurious entity
+"At least four people have been shot dead in two suspected political attacks in South Africa 's volatile Zulu heartland , police said on Friday .",South Africa/LOC | Zulu/MISC,Zulu/LOC,wrong entity type
+"At least four people have been shot dead in two suspected political attacks in South Africa 's volatile Zulu heartland , police said on Friday .",Zulu/MISC,South Africa/LOC | Zulu/LOC,boundary error
+""" Evaluating all the conditions of the case the court thinks the sentence should be lower than the minimum ( 15 years ) , "" Tirana judge Qazim Gjonaj added .",Tirana/LOC | Qazim Gjonaj/PER,Tirana/MISC,wrong entity type
+""" Evaluating all the conditions of the case the court thinks the sentence should be lower than the minimum ( 15 years ) , "" Tirana judge Qazim Gjonaj added .",Tirana/LOC,Tirana/MISC | Qazim Gjonaj/PER,boundary error
+"Defenders - Paulinho Santos ( Porto ) , Sergio Conceicao ( Porto ) , Joao Manuel Pinto ( Porto ) , Oceano Cruz ( Sporting ) , Fernando Couto ( Barcelona ) , Helder Cristovao ( Deportivo Coruna , Spain ) , Dimas Teixeira ( Juventus , Italy ) , Carlos Secretario ( Real Madrid , Spain ) :",Paulinho Santos/PER | Porto/ORG | Sergio Conceicao/PER | Porto/ORG | Joao Manuel Pinto/PER | Porto/ORG | Oceano Cruz/PER | Sporting/ORG | Fernando Couto/PER | Barcelona/ORG | Helder Cristovao/PER | Deportivo Coruna/ORG | Spain/LOC | Dimas Teixeira/PER | Juventus/ORG | Italy/LOC | Carlos Secretario/PER | Real Madrid/ORG | Spain/LOC,Porto/LOC,wrong entity type
+"Defenders - Paulinho Santos ( Porto ) , Sergio Conceicao ( Porto ) , Joao Manuel Pinto ( Porto ) , Oceano Cruz ( Sporting ) , Fernando Couto ( Barcelona ) , Helder Cristovao ( Deportivo Coruna , Spain ) , Dimas Teixeira ( Juventus , Italy ) , Carlos Secretario ( Real Madrid , Spain ) :",Paulinho Santos/PER | Porto/ORG | Sergio Conceicao/PER | Porto/ORG | Joao Manuel Pinto/PER | Porto/ORG | Oceano Cruz/PER | Sporting/ORG | Fernando Couto/PER | Barcelona/ORG | Helder Cristovao/PER | Deportivo Coruna/ORG | Spain/LOC | Dimas Teixeira/PER | Juventus/ORG | Italy/LOC | Carlos Secretario/PER | Real Madrid/ORG | Spain/LOC,Porto/LOC,wrong entity type
+"Defenders - Paulinho Santos ( Porto ) , Sergio Conceicao ( Porto ) , Joao Manuel Pinto ( Porto ) , Oceano Cruz ( Sporting ) , Fernando Couto ( Barcelona ) , Helder Cristovao ( Deportivo Coruna , Spain ) , Dimas Teixeira ( Juventus , Italy ) , Carlos Secretario ( Real Madrid , Spain ) :",Paulinho Santos/PER | Porto/ORG | Sergio Conceicao/PER | Porto/ORG | Joao Manuel Pinto/PER | Porto/ORG | Oceano Cruz/PER | Sporting/ORG | Fernando Couto/PER | Barcelona/ORG | Helder Cristovao/PER | Deportivo Coruna/ORG | Spain/LOC | Dimas Teixeira/PER | Juventus/ORG | Italy/LOC | Carlos Secretario/PER | Real Madrid/ORG | Spain/LOC,Porto/LOC,wrong entity type
+"Defenders - Paulinho Santos ( Porto ) , Sergio Conceicao ( Porto ) , Joao Manuel Pinto ( Porto ) , Oceano Cruz ( Sporting ) , Fernando Couto ( Barcelona ) , Helder Cristovao ( Deportivo Coruna , Spain ) , Dimas Teixeira ( Juventus , Italy ) , Carlos Secretario ( Real Madrid , Spain ) :",Paulinho Santos/PER | Porto/ORG | Sergio Conceicao/PER | Porto/ORG | Joao Manuel Pinto/PER | Porto/ORG | Oceano Cruz/PER | Sporting/ORG | Fernando Couto/PER | Barcelona/ORG | Helder Cristovao/PER | Deportivo Coruna/ORG | Spain/LOC | Dimas Teixeira/PER | Juventus/ORG | Italy/LOC | Carlos Secretario/PER | Real Madrid/ORG | Spain/LOC,Sporting/LOC,wrong entity type
+"Defenders - Paulinho Santos ( Porto ) , Sergio Conceicao ( Porto ) , Joao Manuel Pinto ( Porto ) , Oceano Cruz ( Sporting ) , Fernando Couto ( Barcelona ) , Helder Cristovao ( Deportivo Coruna , Spain ) , Dimas Teixeira ( Juventus , Italy ) , Carlos Secretario ( Real Madrid , Spain ) :",Paulinho Santos/PER | Porto/ORG | Sergio Conceicao/PER | Porto/ORG | Joao Manuel Pinto/PER | Porto/ORG | Oceano Cruz/PER | Sporting/ORG | Fernando Couto/PER | Barcelona/ORG | Helder Cristovao/PER | Deportivo Coruna/ORG | Spain/LOC | Dimas Teixeira/PER | Juventus/ORG | Italy/LOC | Carlos Secretario/PER | Real Madrid/ORG | Spain/LOC,Barcelona/LOC,wrong entity type
+"Defenders - Paulinho Santos ( Porto ) , Sergio Conceicao ( Porto ) , Joao Manuel Pinto ( Porto ) , Oceano Cruz ( Sporting ) , Fernando Couto ( Barcelona ) , Helder Cristovao ( Deportivo Coruna , Spain ) , Dimas Teixeira ( Juventus , Italy ) , Carlos Secretario ( Real Madrid , Spain ) :",Paulinho Santos/PER | Porto/ORG | Sergio Conceicao/PER | Porto/ORG | Joao Manuel Pinto/PER | Porto/ORG | Oceano Cruz/PER | Sporting/ORG | Fernando Couto/PER | Barcelona/ORG | Helder Cristovao/PER | Deportivo Coruna/ORG | Spain/LOC | Dimas Teixeira/PER | Juventus/ORG | Italy/LOC | Carlos Secretario/PER | Real Madrid/ORG | Spain/LOC,Deportivo/LOC,boundary or spurious entity
+"Defenders - Paulinho Santos ( Porto ) , Sergio Conceicao ( Porto ) , Joao Manuel Pinto ( Porto ) , Oceano Cruz ( Sporting ) , Fernando Couto ( Barcelona ) , Helder Cristovao ( Deportivo Coruna , Spain ) , Dimas Teixeira ( Juventus , Italy ) , Carlos Secretario ( Real Madrid , Spain ) :",Paulinho Santos/PER | Porto/ORG | Sergio Conceicao/PER | Porto/ORG | Joao Manuel Pinto/PER | Porto/ORG | Oceano Cruz/PER | Sporting/ORG | Fernando Couto/PER | Barcelona/ORG | Helder Cristovao/PER | Deportivo Coruna/ORG | Spain/LOC | Dimas Teixeira/PER | Juventus/ORG | Italy/LOC | Carlos Secretario/PER | Real Madrid/ORG | Spain/LOC,Juventus/LOC,wrong entity type
+"Defenders - Paulinho Santos ( Porto ) , Sergio Conceicao ( Porto ) , Joao Manuel Pinto ( Porto ) , Oceano Cruz ( Sporting ) , Fernando Couto ( Barcelona ) , Helder Cristovao ( Deportivo Coruna , Spain ) , Dimas Teixeira ( Juventus , Italy ) , Carlos Secretario ( Real Madrid , Spain ) :",Paulinho Santos/PER | Porto/ORG | Sergio Conceicao/PER | Porto/ORG | Joao Manuel Pinto/PER | Porto/ORG | Oceano Cruz/PER | Sporting/ORG | Fernando Couto/PER | Barcelona/ORG | Helder Cristovao/PER | Deportivo Coruna/ORG | Spain/LOC | Dimas Teixeira/PER | Juventus/ORG | Italy/LOC | Carlos Secretario/PER | Real Madrid/ORG | Spain/LOC,Real Madrid/LOC,wrong entity type
+"Defenders - Paulinho Santos ( Porto ) , Sergio Conceicao ( Porto ) , Joao Manuel Pinto ( Porto ) , Oceano Cruz ( Sporting ) , Fernando Couto ( Barcelona ) , Helder Cristovao ( Deportivo Coruna , Spain ) , Dimas Teixeira ( Juventus , Italy ) , Carlos Secretario ( Real Madrid , Spain ) :",Porto/ORG,Paulinho Santos/PER | Porto/LOC | Sergio Conceicao/PER | Porto/LOC | Joao Manuel Pinto/PER | Porto/LOC | Oceano Cruz/PER | Sporting/LOC | Fernando Couto/PER | Barcelona/LOC | Helder Cristovao/PER | Deportivo/LOC | Spain/LOC | Dimas Teixeira/PER | Juventus/LOC | Italy/LOC | Carlos Secretario/PER | Real Madrid/LOC | Spain/LOC,boundary error
+"Defenders - Paulinho Santos ( Porto ) , Sergio Conceicao ( Porto ) , Joao Manuel Pinto ( Porto ) , Oceano Cruz ( Sporting ) , Fernando Couto ( Barcelona ) , Helder Cristovao ( Deportivo Coruna , Spain ) , Dimas Teixeira ( Juventus , Italy ) , Carlos Secretario ( Real Madrid , Spain ) :",Porto/ORG,Paulinho Santos/PER | Porto/LOC | Sergio Conceicao/PER | Porto/LOC | Joao Manuel Pinto/PER | Porto/LOC | Oceano Cruz/PER | Sporting/LOC | Fernando Couto/PER | Barcelona/LOC | Helder Cristovao/PER | Deportivo/LOC | Spain/LOC | Dimas Teixeira/PER | Juventus/LOC | Italy/LOC | Carlos Secretario/PER | Real Madrid/LOC | Spain/LOC,boundary error
+"Defenders - Paulinho Santos ( Porto ) , Sergio Conceicao ( Porto ) , Joao Manuel Pinto ( Porto ) , Oceano Cruz ( Sporting ) , Fernando Couto ( Barcelona ) , Helder Cristovao ( Deportivo Coruna , Spain ) , Dimas Teixeira ( Juventus , Italy ) , Carlos Secretario ( Real Madrid , Spain ) :",Porto/ORG,Paulinho Santos/PER | Porto/LOC | Sergio Conceicao/PER | Porto/LOC | Joao Manuel Pinto/PER | Porto/LOC | Oceano Cruz/PER | Sporting/LOC | Fernando Couto/PER | Barcelona/LOC | Helder Cristovao/PER | Deportivo/LOC | Spain/LOC | Dimas Teixeira/PER | Juventus/LOC | Italy/LOC | Carlos Secretario/PER | Real Madrid/LOC | Spain/LOC,boundary error
+"Defenders - Paulinho Santos ( Porto ) , Sergio Conceicao ( Porto ) , Joao Manuel Pinto ( Porto ) , Oceano Cruz ( Sporting ) , Fernando Couto ( Barcelona ) , Helder Cristovao ( Deportivo Coruna , Spain ) , Dimas Teixeira ( Juventus , Italy ) , Carlos Secretario ( Real Madrid , Spain ) :",Sporting/ORG,Paulinho Santos/PER | Porto/LOC | Sergio Conceicao/PER | Porto/LOC | Joao Manuel Pinto/PER | Porto/LOC | Oceano Cruz/PER | Sporting/LOC | Fernando Couto/PER | Barcelona/LOC | Helder Cristovao/PER | Deportivo/LOC | Spain/LOC | Dimas Teixeira/PER | Juventus/LOC | Italy/LOC | Carlos Secretario/PER | Real Madrid/LOC | Spain/LOC,boundary error
+"Defenders - Paulinho Santos ( Porto ) , Sergio Conceicao ( Porto ) , Joao Manuel Pinto ( Porto ) , Oceano Cruz ( Sporting ) , Fernando Couto ( Barcelona ) , Helder Cristovao ( Deportivo Coruna , Spain ) , Dimas Teixeira ( Juventus , Italy ) , Carlos Secretario ( Real Madrid , Spain ) :",Barcelona/ORG,Paulinho Santos/PER | Porto/LOC | Sergio Conceicao/PER | Porto/LOC | Joao Manuel Pinto/PER | Porto/LOC | Oceano Cruz/PER | Sporting/LOC | Fernando Couto/PER | Barcelona/LOC | Helder Cristovao/PER | Deportivo/LOC | Spain/LOC | Dimas Teixeira/PER | Juventus/LOC | Italy/LOC | Carlos Secretario/PER | Real Madrid/LOC | Spain/LOC,boundary error
+"Defenders - Paulinho Santos ( Porto ) , Sergio Conceicao ( Porto ) , Joao Manuel Pinto ( Porto ) , Oceano Cruz ( Sporting ) , Fernando Couto ( Barcelona ) , Helder Cristovao ( Deportivo Coruna , Spain ) , Dimas Teixeira ( Juventus , Italy ) , Carlos Secretario ( Real Madrid , Spain ) :",Deportivo Coruna/ORG,Paulinho Santos/PER | Porto/LOC | Sergio Conceicao/PER | Porto/LOC | Joao Manuel Pinto/PER | Porto/LOC | Oceano Cruz/PER | Sporting/LOC | Fernando Couto/PER | Barcelona/LOC | Helder Cristovao/PER | Deportivo/LOC | Spain/LOC | Dimas Teixeira/PER | Juventus/LOC | Italy/LOC | Carlos Secretario/PER | Real Madrid/LOC | Spain/LOC,boundary error
+"Defenders - Paulinho Santos ( Porto ) , Sergio Conceicao ( Porto ) , Joao Manuel Pinto ( Porto ) , Oceano Cruz ( Sporting ) , Fernando Couto ( Barcelona ) , Helder Cristovao ( Deportivo Coruna , Spain ) , Dimas Teixeira ( Juventus , Italy ) , Carlos Secretario ( Real Madrid , Spain ) :",Juventus/ORG,Paulinho Santos/PER | Porto/LOC | Sergio Conceicao/PER | Porto/LOC | Joao Manuel Pinto/PER | Porto/LOC | Oceano Cruz/PER | Sporting/LOC | Fernando Couto/PER | Barcelona/LOC | Helder Cristovao/PER | Deportivo/LOC | Spain/LOC | Dimas Teixeira/PER | Juventus/LOC | Italy/LOC | Carlos Secretario/PER | Real Madrid/LOC | Spain/LOC,boundary error
+"Defenders - Paulinho Santos ( Porto ) , Sergio Conceicao ( Porto ) , Joao Manuel Pinto ( Porto ) , Oceano Cruz ( Sporting ) , Fernando Couto ( Barcelona ) , Helder Cristovao ( Deportivo Coruna , Spain ) , Dimas Teixeira ( Juventus , Italy ) , Carlos Secretario ( Real Madrid , Spain ) :",Real Madrid/ORG,Paulinho Santos/PER | Porto/LOC | Sergio Conceicao/PER | Porto/LOC | Joao Manuel Pinto/PER | Porto/LOC | Oceano Cruz/PER | Sporting/LOC | Fernando Couto/PER | Barcelona/LOC | Helder Cristovao/PER | Deportivo/LOC | Spain/LOC | Dimas Teixeira/PER | Juventus/LOC | Italy/LOC | Carlos Secretario/PER | Real Madrid/LOC | Spain/LOC,boundary error
+"Atalanta look to Filippo Inzaghi , scorer of eight goals .",Atalanta/ORG,Filippo Inzaghi/PER,false negative
+UK bookmakers William Hill said on Friday they have lengthened the odds of a Conservative victory in the next general election from 9-4 to 5-2 .,UK/LOC | William Hill/PER | Conservative/MISC,UK/MISC,wrong entity type
+UK bookmakers William Hill said on Friday they have lengthened the odds of a Conservative victory in the next general election from 9-4 to 5-2 .,UK/LOC,UK/MISC | William Hill/PER | Conservative/MISC,boundary error
+9. Ingeborg Helen Markein ( Norway ) 58,Ingeborg Helen/PER | Norway/LOC,Ingeborg Helen Markein/PER,boundary or spurious entity
+9. Ingeborg Helen Markein ( Norway ) 58,Ingeborg Helen/PER,Ingeborg Helen Markein/PER | Norway/LOC,boundary error
+"70 , Brett Liddle 75 65 , Hugh Baiocchi 73 67 141 Adilson da Silva ( Brazil ) 72 69 , Sammy Daniels 73",Brett Liddle/PER | Hugh Baiocchi/PER | Adilson da Silva/PER | Brazil/LOC | Sammy Daniels/PER,Adilson/PER,boundary or spurious entity
+"70 , Brett Liddle 75 65 , Hugh Baiocchi 73 67 141 Adilson da Silva ( Brazil ) 72 69 , Sammy Daniels 73",Brett Liddle/PER | Hugh Baiocchi/PER | Adilson da Silva/PER | Brazil/LOC | Sammy Daniels/PER,Silva/PER,boundary or spurious entity
+"70 , Brett Liddle 75 65 , Hugh Baiocchi 73 67 141 Adilson da Silva ( Brazil ) 72 69 , Sammy Daniels 73",Adilson da Silva/PER,Brett Liddle/PER | Hugh Baiocchi/PER | Adilson/PER | Silva/PER | Brazil/LOC | Sammy Daniels/PER,boundary error
+EASTERN CONFERENCE,,EASTERN/ORG,boundary or spurious entity
+"Cairns 8-1-35-1 ( w-2 ) , Vaughan 9-1-55-1 , Harris 10-0-42-5 ( w-1 ) ,",Cairns/PER | Vaughan/PER | Harris/PER,Cairns/ORG,wrong entity type
+"Cairns 8-1-35-1 ( w-2 ) , Vaughan 9-1-55-1 , Harris 10-0-42-5 ( w-1 ) ,",Cairns/PER,Cairns/ORG | Vaughan/PER | Harris/PER,boundary error
+"Attacking midfielder Adrian Ilie , who recently moved from Steaua to Turkish club Galatasaray , is ruled out after two yellow-card offences .",Adrian Ilie/PER | Steaua/ORG | Turkish/MISC | Galatasaray/ORG,Turkish/LOC,wrong entity type
+"Attacking midfielder Adrian Ilie , who recently moved from Steaua to Turkish club Galatasaray , is ruled out after two yellow-card offences .",Turkish/MISC,Adrian Ilie/PER | Steaua/ORG | Turkish/LOC | Galatasaray/ORG,boundary error
+"EU , Poland agree on oil import tariffs .",EU/ORG | Poland/LOC,EU/LOC,wrong entity type
+"EU , Poland agree on oil import tariffs .",EU/ORG,EU/LOC | Poland/LOC,boundary error
+Queen of South 16 6 4 6 24 27 22,Queen of South/ORG,Queen/ORG,boundary or spurious entity
+Queen of South 16 6 4 6 24 27 22,Queen of South/ORG,South/ORG,boundary or spurious entity
+Queen of South 16 6 4 6 24 27 22,Queen of South/ORG,Queen/ORG | South/ORG,boundary error
+"All-conquering Juventus field their most recent signing , Portuguese defender Dimas , while Alessandro Del Piero and Croat Alen Boksic lead the attack .",Juventus/ORG | Portuguese/MISC | Dimas/PER | Alessandro Del Piero/PER | Croat/MISC | Alen Boksic/PER,Juventus/LOC,wrong entity type
+"All-conquering Juventus field their most recent signing , Portuguese defender Dimas , while Alessandro Del Piero and Croat Alen Boksic lead the attack .",Juventus/ORG | Portuguese/MISC | Dimas/PER | Alessandro Del Piero/PER | Croat/MISC | Alen Boksic/PER,Croat/ORG,wrong entity type
+"All-conquering Juventus field their most recent signing , Portuguese defender Dimas , while Alessandro Del Piero and Croat Alen Boksic lead the attack .",Juventus/ORG,Juventus/LOC | Portuguese/MISC | Dimas/PER | Alessandro Del Piero/PER | Croat/ORG | Alen Boksic/PER,boundary error
+"All-conquering Juventus field their most recent signing , Portuguese defender Dimas , while Alessandro Del Piero and Croat Alen Boksic lead the attack .",Croat/MISC,Juventus/LOC | Portuguese/MISC | Dimas/PER | Alessandro Del Piero/PER | Croat/ORG | Alen Boksic/PER,boundary error
+The protests culminated at dawn on Tuesday with several hundred of the student protesters being detained briefly by police near the central Shwe Dagon pagoda in Rangoon .,Shwe Dagon/LOC | Rangoon/LOC,Shwe/LOC,boundary or spurious entity
+The protests culminated at dawn on Tuesday with several hundred of the student protesters being detained briefly by police near the central Shwe Dagon pagoda in Rangoon .,Shwe Dagon/LOC,Shwe/LOC | Rangoon/LOC,boundary error
+"The Ministry had given the companies until December 4 to complete a partnership deal , and advised Bre-X to take a 25 percent stake and Barrick 75 percent to develop the property .",Bre-X/ORG | Barrick/ORG,Ministry/ORG,boundary or spurious entity
+"The Ministry had given the companies until December 4 to complete a partnership deal , and advised Bre-X to take a 25 percent stake and Barrick 75 percent to develop the property .",Bre-X/ORG | Barrick/ORG,Bre-X/PER,wrong entity type
+"The Ministry had given the companies until December 4 to complete a partnership deal , and advised Bre-X to take a 25 percent stake and Barrick 75 percent to develop the property .",Bre-X/ORG | Barrick/ORG,Barrick/PER,wrong entity type
+"The Ministry had given the companies until December 4 to complete a partnership deal , and advised Bre-X to take a 25 percent stake and Barrick 75 percent to develop the property .",Bre-X/ORG,Ministry/ORG | Bre-X/PER | Barrick/PER,boundary error
+"The Ministry had given the companies until December 4 to complete a partnership deal , and advised Bre-X to take a 25 percent stake and Barrick 75 percent to develop the property .",Barrick/ORG,Ministry/ORG | Bre-X/PER | Barrick/PER,boundary error
+Australia went on to win the match at the Sydney Cricket Ground by 124 runs to take a two-nil lead in the five-test series after Lara failed in both innings .,Australia/LOC | Sydney Cricket Ground/LOC | Lara/PER,Sydney/LOC,boundary or spurious entity
+Australia went on to win the match at the Sydney Cricket Ground by 124 runs to take a two-nil lead in the five-test series after Lara failed in both innings .,Australia/LOC | Sydney Cricket Ground/LOC | Lara/PER,Ground/ORG,boundary or spurious entity
+Australia went on to win the match at the Sydney Cricket Ground by 124 runs to take a two-nil lead in the five-test series after Lara failed in both innings .,Australia/LOC | Sydney Cricket Ground/LOC | Lara/PER,Lara/LOC,wrong entity type
+Australia went on to win the match at the Sydney Cricket Ground by 124 runs to take a two-nil lead in the five-test series after Lara failed in both innings .,Sydney Cricket Ground/LOC,Australia/LOC | Sydney/LOC | Ground/ORG | Lara/LOC,boundary error
+Australia went on to win the match at the Sydney Cricket Ground by 124 runs to take a two-nil lead in the five-test series after Lara failed in both innings .,Lara/PER,Australia/LOC | Sydney/LOC | Ground/ORG | Lara/LOC,boundary error
+Standings of National Hockey,National Hockey/ORG,National/MISC,boundary or spurious entity
+Standings of National Hockey,National Hockey/ORG,National/MISC,boundary error
+ALPINE SKIING-WOMEN 'S WORLD CUP SUPER G WINNER PROFILE .,WORLD CUP/MISC,,false negative
+14-1 Victor Sanchez 12-1 Guillermo,Victor Sanchez/PER | Guillermo/PER,Guillermo/ORG,wrong entity type
+14-1 Victor Sanchez 12-1 Guillermo,Guillermo/PER,Victor Sanchez/PER | Guillermo/ORG,boundary error
+SOCCER - VIEIRA SAVES ARSENAL WITH LAST-MINUTE EQUALISER .,VIEIRA/PER,,false negative
+SOCCER - VIEIRA SAVES ARSENAL WITH LAST-MINUTE EQUALISER .,ARSENAL/ORG,,false negative
+"Dunfermline 2 ( Millar 43 , 46 penalty ) Aberdeen 3 ( Miller 10 , Rowson 55 , Windass 78 ) .",Dunfermline/ORG | Millar/PER | Aberdeen/ORG | Miller/PER | Rowson/PER,Dunfermline/PER,wrong entity type
+"Dunfermline 2 ( Millar 43 , 46 penalty ) Aberdeen 3 ( Miller 10 , Rowson 55 , Windass 78 ) .",Dunfermline/ORG | Millar/PER | Aberdeen/ORG | Miller/PER | Rowson/PER,Windass/PER,boundary or spurious entity
+"Dunfermline 2 ( Millar 43 , 46 penalty ) Aberdeen 3 ( Miller 10 , Rowson 55 , Windass 78 ) .",Dunfermline/ORG,Dunfermline/PER | Millar/PER | Aberdeen/ORG | Miller/PER | Rowson/PER | Windass/PER,boundary error
+"Asked about Rubin 's comment that a strong dollar was in U.S. interests , Sakakibara said the remark does not necessarily mean the United States supports a stronger dollar .",Rubin/PER | U.S./LOC | Sakakibara/PER | United States/LOC,United/MISC,boundary or spurious entity
+"Asked about Rubin 's comment that a strong dollar was in U.S. interests , Sakakibara said the remark does not necessarily mean the United States supports a stronger dollar .",United States/LOC,Rubin/PER | U.S./LOC | Sakakibara/PER | United/MISC,boundary error
+Steers - Select and Choice 2-4 no sales .,,Steers/ORG,boundary or spurious entity
+Steers - Select and Choice 2-4 no sales .,,Select/ORG,boundary or spurious entity
+Steers - Select and Choice 2-4 no sales .,,Choice/ORG,boundary or spurious entity
+"SUNDAY , DECEMBER 8",,SUNDAY/ORG,boundary or spurious entity
+"SUNDAY , DECEMBER 8",,DECEMBER/ORG,boundary or spurious entity
+"CITY OF HARTFORD , CONNECTICUT",HARTFORD/LOC,,false negative
+"CITY OF HARTFORD , CONNECTICUT",CONNECTICUT/LOC,,false negative
+Sudbury Town 1 Brentford 3,Sudbury Town/ORG | Brentford/ORG,Sudbury/ORG,boundary or spurious entity
+Sudbury Town 1 Brentford 3,Sudbury Town/ORG | Brentford/ORG,Town/ORG,boundary or spurious entity
+Sudbury Town 1 Brentford 3,Sudbury Town/ORG,Sudbury/ORG | Town/ORG | Brentford/ORG,boundary error
+Penalties : Burke ( 2 ) .,Burke/PER,Burke/LOC,wrong entity type
+Penalties : Burke ( 2 ) .,Burke/PER,Burke/LOC,boundary error
+"Australian parliamentarian John Langmore has formally resigned from his lower house seat , the office of House of Representatives speaker Bob Halverson said on Friday .",Australian/MISC | John Langmore/PER | House of Representatives/ORG | Bob Halverson/PER,of Representatives/ORG,boundary or spurious entity
+"Australian parliamentarian John Langmore has formally resigned from his lower house seat , the office of House of Representatives speaker Bob Halverson said on Friday .",House of Representatives/ORG,Australian/MISC | John Langmore/PER | of Representatives/ORG | Bob Halverson/PER,boundary error
+Prudential Securities Incorporated,Prudential Securities Incorporated/ORG,Securities Incorporated/ORG,boundary or spurious entity
+Prudential Securities Incorporated,Prudential Securities Incorporated/ORG,Securities Incorporated/ORG,boundary error
+NY RANGERS AT TORONTO,NY RANGERS/ORG | TORONTO/LOC,NY/ORG,boundary or spurious entity
+NY RANGERS AT TORONTO,NY RANGERS/ORG | TORONTO/LOC,RANGERS/ORG,boundary or spurious entity
+NY RANGERS AT TORONTO,NY RANGERS/ORG | TORONTO/LOC,TORONTO/ORG,wrong entity type
+NY RANGERS AT TORONTO,NY RANGERS/ORG,NY/ORG | RANGERS/ORG | TORONTO/ORG,boundary error
+NY RANGERS AT TORONTO,TORONTO/LOC,NY/ORG | RANGERS/ORG | TORONTO/ORG,boundary error
+"Japan 's Economic Planning Agency has not changed its view that the economy is gradually recovering , despite relatively weak gross domestic product figures released on Tuesday , EPA Vice Minister Shimpei Nukaya told reporters on Friday .",Japan/LOC | Economic Planning Agency/ORG | EPA/ORG | Shimpei Nukaya/PER,Economic/MISC,boundary or spurious entity
+"Japan 's Economic Planning Agency has not changed its view that the economy is gradually recovering , despite relatively weak gross domestic product figures released on Tuesday , EPA Vice Minister Shimpei Nukaya told reporters on Friday .",Japan/LOC | Economic Planning Agency/ORG | EPA/ORG | Shimpei Nukaya/PER,Agency/ORG,boundary or spurious entity
+"Japan 's Economic Planning Agency has not changed its view that the economy is gradually recovering , despite relatively weak gross domestic product figures released on Tuesday , EPA Vice Minister Shimpei Nukaya told reporters on Friday .",Japan/LOC | Economic Planning Agency/ORG | EPA/ORG | Shimpei Nukaya/PER,EPA/MISC,wrong entity type
+"Japan 's Economic Planning Agency has not changed its view that the economy is gradually recovering , despite relatively weak gross domestic product figures released on Tuesday , EPA Vice Minister Shimpei Nukaya told reporters on Friday .",Economic Planning Agency/ORG,Japan/LOC | Economic/MISC | Agency/ORG | EPA/MISC | Shimpei Nukaya/PER,boundary error
+"Japan 's Economic Planning Agency has not changed its view that the economy is gradually recovering , despite relatively weak gross domestic product figures released on Tuesday , EPA Vice Minister Shimpei Nukaya told reporters on Friday .",EPA/ORG,Japan/LOC | Economic/MISC | Agency/ORG | EPA/MISC | Shimpei Nukaya/PER,boundary error
+CRICKET - AUSTRALIA V WEST INDIES WORLD SERIES SCOREBOARD .,AUSTRALIA/LOC,,false negative
+CRICKET - AUSTRALIA V WEST INDIES WORLD SERIES SCOREBOARD .,WEST INDIES/LOC,,false negative
+CRICKET - AUSTRALIA V WEST INDIES WORLD SERIES SCOREBOARD .,WORLD SERIES/MISC,,false negative
+-- New York Commodities Desk +1 212 859 1640,New York Commodities Desk/ORG,New York Commodities/ORG,boundary or spurious entity
+-- New York Commodities Desk +1 212 859 1640,New York Commodities Desk/ORG,New York Commodities/ORG,boundary error
+MIDEAST / RED SEA -,RED SEA/LOC,MIDEAST/ORG,boundary or spurious entity
+MIDEAST / RED SEA -,RED SEA/LOC,RED/ORG,boundary or spurious entity
+MIDEAST / RED SEA -,RED SEA/LOC,MIDEAST/ORG | RED/ORG,boundary error
+"Under Chapter Seven of the U.N. charter , the Security Council has wide powers to preserve peace and security .",U.N./ORG | Security Council/ORG,U.N./LOC,wrong entity type
+"Under Chapter Seven of the U.N. charter , the Security Council has wide powers to preserve peace and security .",U.N./ORG | Security Council/ORG,Security/MISC,boundary or spurious entity
+"Under Chapter Seven of the U.N. charter , the Security Council has wide powers to preserve peace and security .",U.N./ORG,U.N./LOC | Security/MISC,boundary error
+"Under Chapter Seven of the U.N. charter , the Security Council has wide powers to preserve peace and security .",Security Council/ORG,U.N./LOC | Security/MISC,boundary error
+"One way to bridge the widening gap is to put more land under cultivation which the Rubber Board official estimates will reach 220,000 hectares between now and the year 2003 although Matthew said this may not be possible at this time in India .",Rubber Board/ORG | Matthew/PER | India/LOC,Matthew/LOC,wrong entity type
+"One way to bridge the widening gap is to put more land under cultivation which the Rubber Board official estimates will reach 220,000 hectares between now and the year 2003 although Matthew said this may not be possible at this time in India .",Matthew/PER,Rubber Board/ORG | Matthew/LOC | India/LOC,boundary error
+INDIANA AT GOLDEN STATE,INDIANA/ORG,,false negative
+INDIANA AT GOLDEN STATE,GOLDEN STATE/LOC,,false negative
+SOCCER - LEADING ENGLISH GOALSCORERS .,ENGLISH/MISC,,false negative
+Nadim Ladki,Nadim Ladki/PER,Ladki/PER,boundary or spurious entity
+Nadim Ladki,Nadim Ladki/PER,Ladki/PER,boundary error
+The Security Council has to vote on a new secretary-general and then seek the endorsement of the 185-members General Assembly before December 31 when Boutros-Ghali 's term expires .,Security Council/ORG | General Assembly/ORG | Boutros-Ghali/PER,Security/MISC,boundary or spurious entity
+The Security Council has to vote on a new secretary-general and then seek the endorsement of the 185-members General Assembly before December 31 when Boutros-Ghali 's term expires .,Security Council/ORG | General Assembly/ORG | Boutros-Ghali/PER,General/MISC,boundary or spurious entity
+The Security Council has to vote on a new secretary-general and then seek the endorsement of the 185-members General Assembly before December 31 when Boutros-Ghali 's term expires .,Security Council/ORG,Security/MISC | General/MISC | Boutros-Ghali/PER,boundary error
+The Security Council has to vote on a new secretary-general and then seek the endorsement of the 185-members General Assembly before December 31 when Boutros-Ghali 's term expires .,General Assembly/ORG,Security/MISC | General/MISC | Boutros-Ghali/PER,boundary error
+Note : Manitoba Government Price Index ( C$ per cwt ) -,Manitoba/ORG | C$/MISC,Manitoba Government Price Index/ORG,boundary or spurious entity
+Note : Manitoba Government Price Index ( C$ per cwt ) -,Manitoba/ORG,Manitoba Government Price Index/ORG,boundary error
+Note : Manitoba Government Price Index ( C$ per cwt ) -,C$/MISC,Manitoba Government Price Index/ORG,false negative
+"-- Chris Aspin , Mexico City newsroom +525 728-7903",Chris Aspin/PER | Mexico City/LOC,Mexico/LOC,boundary or spurious entity
+"-- Chris Aspin , Mexico City newsroom +525 728-7903",Mexico City/LOC,Chris Aspin/PER | Mexico/LOC,boundary error
+"Russia said on Friday it expected a constructive relationship with Madeleine Albright , nominated by U.S. President Bill Clinton to be Secretary of State .",Russia/LOC | Madeleine Albright/PER | U.S./LOC | Bill Clinton/PER,State/ORG,boundary or spurious entity
+( Corrects headline from NBA to NHL and corrects team name in second result from La Clippers to Ny Islanders .,NBA/ORG | NHL/ORG | La Clippers/ORG | Ny Islanders/ORG,NBA/LOC,wrong entity type
+( Corrects headline from NBA to NHL and corrects team name in second result from La Clippers to Ny Islanders .,NBA/ORG | NHL/ORG | La Clippers/ORG | Ny Islanders/ORG,NHL/LOC,wrong entity type
+( Corrects headline from NBA to NHL and corrects team name in second result from La Clippers to Ny Islanders .,NBA/ORG,NBA/LOC | NHL/LOC | La Clippers/ORG | Ny Islanders/ORG,boundary error
+( Corrects headline from NBA to NHL and corrects team name in second result from La Clippers to Ny Islanders .,NHL/ORG,NBA/LOC | NHL/LOC | La Clippers/ORG | Ny Islanders/ORG,boundary error
+CRICKET - LARA SUFFERS MORE AUSTRALIAN TOUR MISERY .,LARA/PER,,false negative
+SOCCER - SCOTTISH LEAGUE STANDINGS .,SCOTTISH/MISC,,false negative

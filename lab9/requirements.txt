@@ -1,0 +1,11 @@
+datasets>=2.18,<4
+transformers>=4.40
+torch
+accelerate>=0.26
+huggingface-hub<1.0
+scikit-learn
+seqeval
+pandas
+numpy
+matplotlib
+jupyter

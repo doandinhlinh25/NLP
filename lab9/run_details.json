@@ -1,0 +1,56 @@
+{
+  "settings": {
+    "model_name": "distilbert/distilbert-base-cased",
+    "seed": 42,
+    "max_length": 256,
+    "epochs": 1,
+    "batch_size": 8,
+    "learning_rate": 2e-05,
+    "train_limit": 2000,
+    "evaluation_limit": 500,
+    "output_dir": "G:\\My Drive\\Documents\\NLP\\lab9"
+  },
+  "labels": [
+    "O",
+    "B-PER",
+    "I-PER",
+    "B-ORG",
+    "I-ORG",
+    "B-LOC",
+    "I-LOC",
+    "B-MISC",
+    "I-MISC"
+  ],
+  "split_sizes": {
+    "train": 2000,
+    "validation": 500,
+    "test": 500
+  },
+  "alignment": "Strategy A: supervise first subword only; special and continuation tokens use -100.",
+  "trainer_metrics": [
+    {
+      "loss": 0.3406,
+      "grad_norm": 1.4636467695236206,
+      "learning_rate": 8e-08,
+      "epoch": 1.0,
+      "step": 250
+    },
+    {
+      "eval_loss": 0.1439247578382492,
+      "eval_runtime": 13.0084,
+      "eval_samples_per_second": 38.437,
+      "eval_steps_per_second": 4.843,
+      "epoch": 1.0,
+      "step": 250
+    },
+    {
+      "train_runtime": 205.3282,
+      "train_samples_per_second": 9.741,
+      "train_steps_per_second": 1.218,
+      "total_flos": 22311840450816.0,
+      "train_loss": 0.3406131591796875,
+      "epoch": 1.0,
+      "step": 250
+    }
+  ]
+}

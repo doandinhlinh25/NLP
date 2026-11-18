@@ -27,3 +27,7 @@ tmp/
 # Generated LAB 08 model checkpoints
 lab8/checkpoints/
 
+# Generated LAB 09 model checkpoints and Trainer work files
+lab9/checkpoints/
+lab9/trainer/
+
