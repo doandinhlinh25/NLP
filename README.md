@@ -19,11 +19,11 @@ Các bài nộp của sinh viên nằm trực tiếp trong thư mục `lab1/` đ
 | `lab9/` | Named Entity Recognition và Information Extraction. |
 | `data/` | Dữ liệu dùng trong các thực nghiệm. |
 | `quiz/` | Tài liệu ôn tập và câu hỏi. |
-| `ChamDiem/` | Hồ sơ chấm/rubric theo lab; xem hướng dẫn bên dưới. |
+| `ChamDiem/` | Hồ sơ chấm mẫu và nhận xét theo lab; xem hướng dẫn bên dưới. |
 
 ### Package chấm điểm `ChamDiem/`
 
-`ChamDiem/` lưu các file ghi nhận việc chấm và nhận xét theo từng bài, không phải package Python để cài bằng `pip`. Cấu trúc hiện tại:
+`ChamDiem/` lưu các ví dụ phiếu chấm và nhận xét theo từng bài, không phải package Python để cài bằng `pip`. Tiêu chí chính thức của mỗi lab nằm ngay trong thư mục lab tương ứng, thường là file `Wn.pdf` (ví dụ `lab9/W9.pdf`); áp dụng cùng cách tìm này cho LAB 01–09. Cấu trúc hồ sơ chấm mẫu hiện có:
 
 ```text
 ChamDiem/
@@ -34,9 +34,9 @@ ChamDiem/
 └── lab05/<thư-mục-con>/cham_diem_lab05.md
 ```
 
-Mỗi `cham_diem_labXX.md` ghi điểm, rubric/hạng mục, căn cứ đối chiếu và nhận xét. Một số thư mục còn có README hoặc requirements riêng cho bài đó. Tiêu chí và rubric chấm LAB 09 nằm trong đề [lab9/W9.pdf](lab9/W9.pdf); các file bài nộp và kết quả để đối chiếu nằm trong `lab9/`. Hiện `ChamDiem/` có hồ sơ chấm cho LAB 01–05; chưa có hồ sơ chấm riêng cho LAB 06–09.
+Mỗi `cham_diem_labXX.md` là ví dụ cách ghi điểm, căn cứ đối chiếu và nhận xét, không thay thế tiêu chí trong đề. Các file bài nộp và kết quả để chấm nằm trong thư mục lab tương ứng. Hiện `ChamDiem/` có ví dụ cho LAB 01–05; với các lab sau, hãy dùng tiêu chí trong file đề của chính lab đó.
 
-Khi chấm một bài, mở file trong `ChamDiem/labXX/` tương ứng để xem nhận xét, rồi đối chiếu các deliverables trong `labX/` với đề và README của lab. Các file kết quả như CSV, hình, notebook và báo cáo nằm cùng thư mục bài nộp, không nằm trong `ChamDiem/`.
+Khi chấm, mở file `Wn.pdf` trong thư mục `labN/` để xem rubric/yêu cầu, sau đó đối chiếu mã nguồn, notebook, kết quả và báo cáo trong cùng thư mục. Có thể tham khảo `ChamDiem/` để xem cách trình bày một phiếu nhận xét mẫu.
 
 ## Cài đặt và chạy
 
