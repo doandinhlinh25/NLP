@@ -1,69 +1,62 @@
-# NLP
+# NLP — Bài thực hành Xử lý ngôn ngữ tự nhiên
 
-Repository lưu trữ bài thực hành và tài liệu môn **Xử lý ngôn ngữ tự nhiên**.
+Kho lưu trữ bài tập, mã nguồn, dữ liệu và kết quả thực nghiệm của môn **Xử lý ngôn ngữ tự nhiên và ứng dụng** (Học kỳ I, 2026).
 
-## Cấu trúc dự án
+## Bài nộp và vị trí chấm điểm
 
-| Thư mục / tệp | Nội dung |
+Các bài nộp của sinh viên nằm trực tiếp trong thư mục `lab1/` đến `lab9/`. Mỗi thư mục lab chứa đề bài/tài liệu, mã nguồn hoặc notebook, kết quả chạy và phần báo cáo tương ứng. README riêng trong từng lab là hướng dẫn chính về cách cài dependencies, chạy pipeline và tên deliverables.
+
+| Thư mục | Nội dung |
 | --- | --- |
-| `lab1/` | Lab 01: tiền xử lý văn bản, biểu diễn thưa, TF-IDF, tìm kiếm và đánh giá. |
-| `lab2/` | Tài liệu Lab 02 (`W2.pdf`). |
-| `lab3/` | Lab 03: word-context representation và word embeddings. |
-| `data/` | Corpus C4 mẫu 30K dùng cho các thực nghiệm. |
-| `quiz/` | Tài liệu câu hỏi ôn tập. |
+| `lab1/` | Tiền xử lý văn bản, TF-IDF, tìm kiếm và đánh giá. |
+| `lab2/` | Language models và N-gram. |
+| `lab3/` | Word-context representation và word embeddings. |
+| `lab4/` | Bài thực hành theo đề W4. |
+| `lab5/` | RNN, LSTM, GRU và phân loại chuỗi. |
+| `lab6/` | Bài thực hành theo đề W6. |
+| `lab7/` | Bài thực hành theo đề W7. |
+| `lab8/` | Sequence classification với pretrained Transformer. |
+| `lab9/` | Named Entity Recognition và Information Extraction. |
+| `data/` | Dữ liệu dùng trong các thực nghiệm. |
+| `quiz/` | Tài liệu ôn tập và câu hỏi. |
+| `ChamDiem/` | Hồ sơ chấm/rubric theo lab; xem hướng dẫn bên dưới. |
 
-Chi tiết các bài từ Exercise 1 đến Exercise 11 của Lab 01 có trong [README của Lab 01](lab1/README.md).
+### Package chấm điểm `ChamDiem/`
 
-## Yêu cầu
-
-- Python 3.10 trở lên
-- Jupyter Notebook (để mở các tệp `.ipynb`)
-- Các thư viện Python: `numpy`, `scipy`, `scikit-learn`, `gensim`
-
-## Cài đặt môi trường
-
-```powershell
-python -m venv .venv
-.\.venv\Scripts\Activate.ps1
-python -m pip install --upgrade pip
-python -m pip install numpy scipy scikit-learn gensim jupyter
-```
-
-## Chạy lại phần code
-
-Từ thư mục gốc của repository:
-
-```powershell
-python lab1/Chapter9/implementation.py
-python lab1/Chapter8/run_experiments.py
-python lab1/Chapter10/run_search_evaluation.py
-python lab3/Chapter10/run_word_context_experiment.py
-python lab3/Chapter11/implementation.py
-python lab3/Chapter17/run_word2vec_experiment.py
-python lab3/Chapter18/run_embedding_inspection.py
-python lab3/Chapter19/run_context_window_experiment.py
-python lab3/Chapter20/run_dimension_experiment.py
-python lab3/Chapter21/run_similarity_evaluation.py
-```
-
-Để làm việc với notebook:
-
-```powershell
-jupyter notebook
-```
-
-Sau đó mở notebook tương ứng trong thư mục `lab1/` hoặc `lab3/`.
-
-## Dữ liệu
-
-Các chương trình Lab 01 và Lab 03 sử dụng corpus tại:
+`ChamDiem/` lưu các file ghi nhận việc chấm và nhận xét theo từng bài, không phải package Python để cài bằng `pip`. Cấu trúc hiện tại:
 
 ```text
-data/c4-train.00000-of-01024-30K.json/c4-train.00000-of-01024-30K.json
+ChamDiem/
+├── lab01/<thư-mục-con>/cham_diem_lab01.md
+├── lab02/<thư-mục-con>/cham_diem_lab02.md
+├── lab03/<thư-mục-con>/cham_diem_lab03.md
+├── lab04/<thư-mục-con>/cham_diem_lab04.md
+└── lab05/<thư-mục-con>/cham_diem_lab05.md
 ```
 
-> Lưu ý: tệp dữ liệu có dung lượng lớn. Nếu repository tiếp tục bổ sung dữ liệu lớn, nên quản lý bằng Git LFS.
+Mỗi `cham_diem_labXX.md` ghi điểm, rubric/hạng mục, căn cứ đối chiếu và nhận xét. Một số thư mục còn có README hoặc requirements riêng cho bài đó. Hiện package có hồ sơ cho LAB 01–05; chưa có hồ sơ chấm LAB 06–09.
 
-## Lưu ý đóng góp
+Khi chấm một bài, mở file trong `ChamDiem/labXX/` tương ứng để xem nhận xét, rồi đối chiếu các deliverables trong `labX/` với đề và README của lab. Các file kết quả như CSV, hình, notebook và báo cáo nằm cùng thư mục bài nộp, không nằm trong `ChamDiem/`.
 
-Không commit môi trường ảo, cấu hình IDE hoặc tệp cache. Các mục này đã được loại trừ trong `.gitignore`.
+## Cài đặt và chạy
+
+Các lab có dependencies khác nhau, vì vậy hãy cài requirements và làm theo lệnh trong README của lab đang thực hiện. Ví dụ với LAB 09:
+
+```powershell
+python -m pip install -r lab9/requirements.txt
+python lab9/ner_pipeline.py
+```
+
+Một số thực nghiệm cần tải dữ liệu hoặc pretrained model qua Internet ở lần chạy đầu. Hãy xem README của lab để biết cấu hình mặc định, cách chạy nhanh và giới hạn của kết quả.
+
+## Dữ liệu và môi trường
+
+- Python 3.10 trở lên là mốc tham khảo; phiên bản và dependencies cụ thể có thể khác giữa các lab.
+- Dữ liệu thực nghiệm đặt trong `data/` hoặc được tải theo hướng dẫn của lab.
+- Không commit virtual environment, cache, cấu hình IDE hoặc checkpoint model sinh ra khi train; các mục này được loại trừ trong `.gitignore`.
+
+## Liên kết
+
+- [Bài thực hành LAB 01](lab1/README.md)
+- [Bài thực hành LAB 09](lab9/README.md)
+
